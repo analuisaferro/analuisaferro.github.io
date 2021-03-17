@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<title>Quizz</title>
+	<link rel="stylesheet" href="./css/style.css">
+	<meta charset="UTF-8">
+	<style type="text/css" ref=""></style>
+	<script src="./js/jquery.min.js"></script>
+ 	<script src="./js/quiz-plugin.js"></script>
+</head>
+<body>
+		<div class="bannerenav">
+		<center><img src="./imgsite/bandnvdnv.jpg" alt="Takanakuy, una tradición de los indios indios peruanos" width="800" height="245">
+		</center>
+		<center>
+		<nav>
+		<ul>
+			<li class="navnav"><a href="./indexsite.html">Fiesta Típica</a></li>
+			<li class="navnav"><a href="./origen.html">Origen</a></li>
+			<li class="navnav"><a href="./quizz.html">Quizz</a></li>
+			<li class="navnav"><a href="./contacto.html">Contacto</a></li>
+		</ul>
+	</nav>
+	</center>
+		</div>
+	<main>
+	<center>
+	<article>
+	<div class="textbox">
+		<div id="titulo">
+		<h2>Quizz</h2>
+		</div>
+		<p>Ahora, hemos preparado un quizz para ti sobre esta fiesta típica de Perú. Para ir a la página de quizz, presiona el link abajo.
+		</p>
+
+ 
+<div class="quiz">
+ <script>
+ 
+ $(function(){
+ //criando as questões
+ let options = {message: "Acertaste "
+
+ , questions: [{id:1
+ , question:"1. ¿En qué mes tiene lugar la fiesta?"
+ , items :["Diciembre.", "Julio.", "Febrero.", "Enero.", "Noviembre."]
+ , correct: 0
+
+ }
+ , {id:2
+ , question:"2. ¿Qué deben hacer los participantes después de la pelea? "
+ , items :["Beber.", "Bailar.", "Abrazar.", "Alejarse uno del otro."]
+ , correct: 2
+ }
+
+ , {id:3
+ , question:"3. ¿Cuál es el propósito de esta fiesta?"
+ , items :["Véngate de alguien que te hizo daño.", "Celebrar la Navidad.", "Empezar el próximo año en paz.", "Recuperar el honor perdido."]
+ , correct: 2
+ }
+
+ , {id:4
+ , question:"4. ¿Cuál de estas NO es una regla de Takanakuy?"
+ , items :["Si el oponente cae al suelo, no puede golpearlo mientras está acostado.", "No se permiten golpes en la espalda o tirar al oponente el suelo.", "Solo dos personas pueden pelear entre sí a la vez.", "La pelea tiene un maximo de 5 minutos."]
+ , correct: 3
+ }
+ , {id:5
+ , question:"5. ¿Cómo se llamaba el partido Inca que dio origen a Takanakuy?"
+ , items : ["Las Fallas", "Huaylía", "Inti Raymi", "Hispanidad"]
+ , correct: 1
+ }]
+ }
+ 
+ //Carregando o quiz
+ $(".quiz").quiz(options);
+ 
+ })
+</script>
+</div>
+<p>Quizz en el sitio quizur: </p>
+		</center>
+		<br/>
+		<center>
+		<div id="butquizz"> 
+		<a href="https://pt.quizur.com/trivia/quizz-takanakuy-FFgM"> Página del quizz</a>
+		</div>
+		</center>
+
+
+	</div>
+</article>
+
+	<footer>
+		<hr/><br/>
+		<a href="./origen.html">Página siguiente</a>
+	</footer>
+	</main>
+</body>
+</html>

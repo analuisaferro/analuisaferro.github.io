@@ -1,0 +1,22 @@
+.correct {
+    color:darkslategrey;
+    background-color:lightseagreen;
+}
+
+.wrong {
+    color:maroon;
+    background-color:salmon;
+}
+
+.quiz-message {
+    border:1px solid #333;
+    border-radius:5px;
+    margin: 10px 0;
+    padding: 0 15px;
+    position:relative;
+}
+.quiz-message-close {
+    position:absolute;
+    top:3px;
+    right: 10px;
+}
