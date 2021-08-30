@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>lab 2</title>
+    <script>
+        let soma = 0;
+        let sumprimow = 0;
+        let produtinho = 1;
+        function sum (vetor){
+            for (let i=0; i<vetor.length; i++){
+                soma=soma+vetor[i];
+            }
+            return soma;
+
+        }
+        function sumodds (vetor){
+            for (i=0; i<vetor.length; i++){
+                if (vetor[i] % 2 != 0){
+                    sumprimow=sumprimow+vetor[i];
+                }
+            }
+            return sumprimow;
+        }
+        function products (vetor){
+            for (let i=0; i<vetor.length; i++){
+              produtinho=produtinho*vetor[i];  
+            };
+            return produtinho;
+
+        }
+
+
+        let teste = [1, 2, 4, 7, 9, 5];
+        console.log(sum(teste));
+        console.log(sumodds(teste));
+        console.log(products(teste));
+
+    </script>
+</head>
+<body>
+    <h2><center>LAB 2.1</h2>
+</body>
+</html>

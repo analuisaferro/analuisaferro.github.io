@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>lab 2</title>
+    <script>
+        let count=0;
+        let i=0;
+        let numeroConvertido = "";
+        function conv(n){
+            if (3888<n){
+                return undefined;
+            }
+            if (n>=1000){
+                while (n>=1000)
+                {
+                    n=n-1000;
+                    count++;
+                }
+                while (i<count)
+                {
+                    numeroConvertido = numeroConvertido + "M";
+                    i++;
+                }
+            }
+            count =0;
+            i=0;
+            if (n>=900){
+                while (n>=900)
+                {
+                    n=n-900;
+                    count++;
+                }
+                while (i<count)
+                {
+                    numeroConvertido = numeroConvertido + "CM";
+                    i++;
+                }
+            }
+            count =0;
+            i=0;
+            if (n>=500){
+                while (n>=500)
+                {
+                    n=n-500;
+                    count++;
+                }
+                while (i<count)
+                {
+                    numeroConvertido = numeroConvertido + "D";
+                    i++;
+                }
+            }
+            count =0;
+            i=0;
+            if (n>=400){
+                while (n>=400)
+                {
+                    n=n-400;
+                    count++;
+                }
+                while (i<count)
+                {
+                    numeroConvertido = numeroConvertido + "CD";
+                    i++;
+                }
+            }
+            count =0;
+            i=0;
+            if (n>=100){
+                while (n>=100)
+                {
+                    n=n-100;
+                    count++;
+                }
+                while (i<count)
+                {
+                    numeroConvertido = numeroConvertido + "C";
+                    i++;
+                }
+            }
+            count =0;
+            i=0;
+            if (n>=90){
+                while (n>=90)
+                {
+                    n=n-90;
+                    count++;
+                }
+                while (i<count)
+                {
+                    numeroConvertido = numeroConvertido + "XC";
+                    i++;
+                }
+            }
+            count =0;
+            i=0;
+            if (n>=50){
+                while (n>=50)
+                {
+                    n=n-50;
+                    count++;
+                }
+                while (i<count)
+                {
+                    numeroConvertido = numeroConvertido + "L";
+                    i++;
+                }
+            }
+            count =0;
+            i=0;
+            if (n>=40){
+                while (n>=40)
+                {
+                    n=n-40;
+                    count++;
+                }
+                while (i<count)
+                {
+                    numeroConvertido = numeroConvertido + "XL";
+                    i++;
+                }
+            }
+            count =0;
+            i=0;
+            if (n>=10){
+                while (n>=10)
+                {
+                    n=n-10;
+                    count++;
+                }
+                while (i<count)
+                {
+                    numeroConvertido = numeroConvertido + "X";
+                    i++;
+                }
+            }
+            count =0;
+            i=0;
+            if (n>=9){
+                while (n>=9)
+                {
+                    n=n-9;
+                    count++;
+                }
+                while (i<count)
+                {
+                    numeroConvertido = numeroConvertido + "IX";
+                    i++;
+                }
+            }
+            count =0;
+            i=0;
+            if (n>=5){
+                while (n>=5)
+                {
+                    n=n-5;
+                    count++;
+                }
+                while (i<count)
+                {
+                    numeroConvertido = numeroConvertido + "V";
+                    i++;
+                }
+            }
+            count =0;
+            i=0;
+            if (n>=4){
+                while (n>=4)
+                {
+                    n=n-4;
+                    count++;
+                }
+                while (i<count)
+                {
+                    numeroConvertido = numeroConvertido + "IV";
+                    i++;
+                }
+            }
+            count =0;
+            i=0;
+            if (n>=1){
+                while (n>=1)
+                {
+                    n=n-1;
+                    count++;
+                }
+                while (i<count)
+                {
+                    numeroConvertido = numeroConvertido + "I";
+                    i++;
+                }
+            }
+            count =0;
+            i=0;
+            return numeroConvertido;
+        }
+        let teste = 499;
+
+        console.log(conv(teste));
+        console.log(count);
+    </script>
+</head>
+<body>
+    <h2><center>LAB 2.3</h2>
+</body>
+</html>

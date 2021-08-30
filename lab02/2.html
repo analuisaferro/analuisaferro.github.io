@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <title>lab 2</title>
+    <script>
+        let i;
+        function sera(num){
+            let divisor = 0;
+            let i;
+                for (i=1; i<=num; i++)
+                {
+                    if (num % i == 0)
+                    {
+                        divisor++;
+                    }
+                }
+                if (divisor==2)
+                    {
+                        divisor=0;
+                        return true;
+                        
+                    }
+                else {
+                    divisor=0;
+                    return false;
+
+                }
+                
+        }
+        let a;
+        function nprimo(n, n2=0){
+            for (a=n2; a<=n; a++){
+                if (sera(a)==true){
+                    console.log(a)
+                }
+            }
+
+        }
+        nprimo(20, 2);
+    </script>
+</head>
+<body>
+    <h2><center>LAB 2.2</h2>
+</body>
+</html>
