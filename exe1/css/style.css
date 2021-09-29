@@ -1,0 +1,49 @@
+h2 {
+    text-align: center;
+    color: coral;
+}
+body {
+    background-color: #e5e5f7;
+opacity: 1;
+background-image:  linear-gradient(#ffc9ae 2.4000000000000004px, transparent 2.4000000000000004px), linear-gradient(90deg, #ffc9ae 2.4000000000000004px, transparent 2.4000000000000004px), linear-gradient(#ffc9ae 1.2000000000000002px, transparent 1.2000000000000002px), linear-gradient(90deg, #ffc9ae 1.2000000000000002px, #e5e5f7 1.2000000000000002px);
+background-size: 60px 60px, 60px 60px, 12px 12px, 12px 12px;
+background-position: -2.4000000000000004px -2.4000000000000004px, -2.4000000000000004px -2.4000000000000004px, -1.2000000000000002px -1.2000000000000002px, -1.2000000000000002px -1.2000000000000002px;
+ }
+.osinput{
+    text-align: center;
+}
+input {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.osbutton{
+    text-align: center;
+    display: flexbox;
+}
+button {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-color: coral;
+    margin: 3px;
+    border-style: solid;
+}
+button:hover{
+    background-color: rgb(211, 211, 211);
+}
+main {
+    background-color: rgb(255, 251, 234);
+    width: 70%;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 50%;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: darkgrey;
+    border-radius: 4px;
+}
+#textinho {
+    text-align: center;
+    font-size: 35px;
+}
