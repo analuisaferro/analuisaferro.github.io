@@ -43,7 +43,7 @@ primo.addEventListener("click", function(){
 hipo.addEventListener("click", function(){
     let num1 = Number(inputn1.value);
     let num2 = Number(inputn2.value);
-    let resultado = num1 ** 2 + num2 ** 2;
+    let resultado = Math.hypot(num1, num2);
     return document.querySelector("#textinho").innerHTML = resultado;
 })
 reajuste.addEventListener("click",function(){
