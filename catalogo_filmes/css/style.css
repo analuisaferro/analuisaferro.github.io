@@ -1,0 +1,130 @@
+body {
+    background-color: black;
+}
+p, h1, h2, h3, h4, ul, li{
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+}
+h1{
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin: auto;
+}
+
+p {
+    padding: 0;
+    margin-top: 0;
+
+}
+hr{
+    width: 95%;
+    margin: auto;
+}
+#todos-filmes{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.filme{
+    align-content: center;
+    text-align: center;
+    background-color: #181818;
+}
+.inteiro{
+    width: 45%;
+    margin-top: 50px;
+}
+.titulo{
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.back-txt{
+
+    background-color: #181818;
+    text-align: justify;
+
+}
+
+.imagem {
+    width: 100%;
+    height: 100%;
+}
+
+ul, li {
+    list-style: none;
+    padding: 0;
+}
+.titulo-elenco, .titulo-opinioes, .titulo-Tsemelhantes{
+    font-weight: bold;
+}
+.generos {
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.genero {
+    border-width: 1px;
+    border-radius: 3px;
+    background: #666666;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-right: 3px;
+    margin-left: 3px;
+    color: white;
+}
+.classificacao-0-14, .classificacao-15-16, .classificacao-18{
+    width: 5%;
+    margin: auto;
+    border-style: solid;
+    font-weight: bold;
+    border-width: 0.5px;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+}
+.classificacao-0-14{
+
+    border-color: #46bd22;
+    color: #46bd22;
+}
+.classificacao-15-16{
+    border-color: #b3bf00;
+    color: #b3bf00;
+}
+.classificacao-18{
+    border-color: #8a0000;
+    color: #8a0000;
+}
+.resumo, .opinioes, .titulo-opinioes {
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.resumo{
+    margin-top: 0;
+}
+.elenco-titulos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
