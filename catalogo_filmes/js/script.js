@@ -60,13 +60,10 @@ function montahtml(filmes){
         res.innerHTML = filme.resumo;
         back.appendChild(res);
 
-
-
         let tituloElenco = document.createElement("p");
         tituloElenco.classList.add("titulo-elenco");
         tituloElenco.innerHTML = "Elenco";
         
-
         let elen = document.createElement("ul");
         elen.classList.add("elenco");
         for (let ator of filme.elenco){
@@ -118,8 +115,6 @@ function montahtml(filmes){
                 }
             }
         }
-
-        
 
         let elenTitu = document.createElement("div");
         elenTitu.classList.add("elenco-titulos");
