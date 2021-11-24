@@ -1,0 +1,24 @@
+.container {
+    width: 100%;
+    padding:10px 5px;
+}
+.text-center {
+    text-align: center;
+}
+#menu {
+    width: 1000px;
+    margin: 0 auto;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+#menu figure {
+    width: 40%;
+    padding: 10px;
+    border:1px solid #333;
+    border-radius:5px;
+    box-sizing: border-box;
+}
+#menu img {
+    width: 100%;
+}
