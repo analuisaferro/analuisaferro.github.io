@@ -25,7 +25,7 @@ function saveFood(event) {
     //evitando a submissão do formulário
     event.preventDefault();
     // formatando os dados do form
-    const newFood = view.updaate(); // {name: "???", image: "?url??"}
+    const newFood = view.save(); // {name: "???", image: "?url??"}
     // salvando na storage
     const foodList = foods.create(newFood);
     // exibindo os novos itens da storage
@@ -37,9 +37,8 @@ function saveFood(event) {
  * exemplo de evento para exclusão
  * utiliza delegação de eventos
  */
- document.addEventListener("click", (event) =>{
+document.addEventListener("click", (event) =>{
     //se o elemento criado dinamicamente que foi clicado for um figure
-
     if(event.target && 
         (event.target.matches("#menu img")
             || event.target.matches("#menu figcaption")
@@ -52,11 +51,6 @@ function saveFood(event) {
 
         view.createItems(foods.listFood(dataset));
     }
-    else if(event.target.matches(".editar")){
-        const newFood = view.save();
-        foods.update(parseInt(event.target.id), newFood)
-        view.createItems(foods.listFood(dataset));
-
-    }
+    
 })
 

@@ -16,7 +16,7 @@ function createItems(foods) {
     foods.forEach(food => {
         let figFood = document.createElement("figure");
         figFood.id = `food-${food.id}`;
-        figFood.innerHTML =`<div id="editar"><button type="button" id="${food.id}" class="editar" >Editar</button></div> <img src="${food.image}" alt="${food.name}">
+        figFood.innerHTML =`<img src="${food.image}" alt="${food.name}">
                 <figcaption>${food.name}</figcaption>`;
         menu.appendChild(figFood);
     });
@@ -26,4 +26,5 @@ function save() {
     document.querySelector('#save-food').blur();
     return Object.fromEntries(new FormData(formFood));
 }
-export default { createItems, save};
+
+export default { createItems, save };
