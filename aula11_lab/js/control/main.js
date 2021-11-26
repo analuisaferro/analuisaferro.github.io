@@ -51,6 +51,10 @@ document.addEventListener("click", (event) =>{
 
         view.createItems(foods.listFood(dataset));
     }
-    
+    else if (event.target && event.target.matches(".editar")) {
+        const newFood = view.save();
+        foods.update(parseInt(event.target.id), newFood);
+        view.createItems(foods.listFood(dataset));
+    }
 })
 

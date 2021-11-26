@@ -16,8 +16,7 @@ function createItems(foods) {
     foods.forEach(food => {
         let figFood = document.createElement("figure");
         figFood.id = `food-${food.id}`;
-        figFood.innerHTML =`<img src="${food.image}" alt="${food.name}">
-                <figcaption>${food.name}</figcaption>`;
+        figFood.innerHTML =`<div id="editar"><button type="button" id=${food.id} class="editar">Editar</button></div> <img src=${food.image} alt=${food.name}> <figcaption>${food.name}</figcaption>`;
         menu.appendChild(figFood);
     });
 }
