@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./src/js/jquery.min.js"></script>
+    <script src="./src/js/main.js"></script>
+    <link rel="stylesheet" href="./src/style.css">
+    <title>LIvraria</title>
+
+</head>
+<body>
+    <main>
+        <h1>Livraria</h1>
+        <fieldset>
+            <legend><h3>Cadastro de livros</h3></legend>
+            <form>
+                <label for="titulo">Título</label>
+                <input type="text" name="title" id="titulo">
+                <label for="description">Descrição</label>
+                <input type="text" name="description" id="descricao">
+                <label for="author">Autor</label>
+                <input type="text" name="author" id="autores">
+                <label for="genre">Estilo</label>
+                <input type="text" name="genre" id="estilo">
+            </form>
+            <input type="button" value="Submit" id="add">
+        </fieldset>
+        <table id="acervo">
+            <tr>
+                <th>Título</th>
+                <th>Descrição</th>
+                <th>Autor</th>
+                <th>Estilo</th>
+            </tr>
+            
+        </table>
+    </main> 
+</body>
+</html>

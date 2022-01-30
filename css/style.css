@@ -21,22 +21,22 @@ a {
     border-width: 1px;
     border-color: rgb(196, 196, 196);
     border-top-right-radius: 5px;
-    width: 30%;
+    width: 410px;
     position: fixed;
-    height: 90%;
+    height: 560px;
 }
 #avatar {
     width: 30%;
     border-radius: 100%;
-    margin-top: 10vh;
-    margin-bottom: 5vh;
+    margin-top: 64px;
+    margin-bottom: 32px;
     display: block;
     margin-left: auto;
     margin-right: auto
 }
 .desc, .name, .user {
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 41px;
+    margin-right: 41px;
 }
 h1, p, h2, a, h3, li {
     margin-bottom: 10px;
@@ -50,20 +50,20 @@ h1, h2, h3, p, a, li{
 }
 .user{
     text-decoration: none;
-    font-size: 3vh;
+    font-size: 19px;
     color: black;
     transition: color .2s ease-out;
 }
 .user:hover{
-    color: rgb(22, 80, 155);
+    color: rgb(56, 103, 165);
 }
 .desc{
     margin-top: 20px;
 }
 .nav-side-bar{
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-top: 5%;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
     display: grid;
 }
 .link-side {
@@ -72,7 +72,7 @@ h1, h2, h3, p, a, li{
 
 }
 .desc, .link-side {
-    font-size: 2.6vh;
+    font-size: 16px;
 }
 .link-side{
     display: flex;
@@ -123,8 +123,8 @@ h1, h2, h3, p, a, li{
 }
 #principal-content{
     position: relative;
-    top: 70px; left: 40%; right: auto;
-    width: 45%;
+    top: 70px; left: 550px;
+    width: 650px;
     max-width: 750px;
     background-color: rgb(255, 255, 255);
     border-style: solid;
@@ -140,7 +140,7 @@ h1, h2, h3, p, a, li{
     margin: 16px;
 }
 .content{
-    width: 90%;
+    width: 587px;
     margin: auto;
     padding: 10px;
     border-bottom: 0px solid;
@@ -148,6 +148,7 @@ h1, h2, h3, p, a, li{
     border-top: 0px solid;
     margin-bottom: 35px;
 }
+
 .c1{
     border-left: 10px solid #18363e;
 }

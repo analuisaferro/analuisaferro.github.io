@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./src/js/jquery.min.js"></script>
+    <script src="./src/js/main.js"></script>
+    <link rel="stylesheet" href="./src/style.css">
+    <title>Encontra Endereço</title>
+
+</head>
+<body>
+    <main>
+        <fieldset>
+        <legend><h1>Consulta de CEP</h1></legend>
+        <form>
+            <label for="CEP">Digite um CEP válido</label>
+            <input type="text" name="CEP" id="textcep" maxlength="9">
+            <input type="button" name="valida" id="valida" value="Submit">
+        </form>
+    </fieldset>
+        <hr>
+        <h3>Endereço correspondente:</h3>
+        <ul id="adress"></ul>
+    </main>
+</body>
+</html>
