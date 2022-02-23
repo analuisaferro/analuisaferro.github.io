@@ -1,0 +1,35 @@
+[{"code": "V1"
+, "photo": "images/menu/V/V1.jpg"
+, "price": "$12.45 (pint) $18.45 (large)" 
+, "name": "Hunan Veal" 
+, "details": "veal sauteed with broccoli, mushrooms, and carrots in spicy Hunan sauce"} 
+, {"code": "V2"
+, "photo": "images/menu/V/V2.jpg"
+, "price": "$12.45 (pint) $18.45 (large)" 
+, "name": "Veal with Mixed Vegetables" 
+, "details": "sliced veal sauteed with carrots, broccoli, snow peas, string beans, water chestnuts, and mushrooms in brown sauce"} 
+, {"code": "V3"
+, "photo": "images/menu/V/V3.jpg"
+, "price": "$12.45 (pint) $18.45 (large)" 
+, "name": "Veal with Garlic Sauce" 
+, "details": "sliced veal sauteed with mushrooms, string beans, and water chestnuts in garlic sauce"} 
+, {"code": "V4"
+, "photo": "images/menu/V/V4.jpg"
+, "price": "$12.45 (pint) $18.45 (large)" 
+, "name": "Kung Pao Veal" 
+, "details": "sliced veal sauteed with peanuts and celery in delicious Kung Pao sauce"} 
+, {"code": "V5"
+, "photo": "images/menu/V/V5.jpg"
+, "price": "$12.45 (pint) $18.45 (large)" 
+, "name": "Mongolian Veal" 
+, "details": "veal sauteed with onions, green onions, and bamboo shoots in chef's sauce"} 
+, {"code": "V6"
+, "photo": "images/menu/V/V6.jpg"
+, "price": "$12.45 (pint) $18.45 (large)" 
+, "name": "Veal with Green Peppers" 
+, "details": "sliced veal sauteed with onions and green peppers in brown sauce"} 
+, {"code": "V7"
+, "photo": "images/menu/V/V7.jpg"
+, "price": "$12.45 (pint) $18.45 (large)" 
+, "name": "Szechuan Veal" 
+, "details": "veal sauteed with carrots, celery, and bean sprouts in Szechuan sauce"}]

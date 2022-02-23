@@ -1,0 +1,135 @@
+[{"code":"L1" 
+, "photo": "images/menu/L/L1.jpg" 
+, "price": "$9.75" 
+, "name": "Orange Chicken" 
+, "details": "chunks of chicken, breaded and deep-fried with sauce containing orange peels; white meat by request: for pint $1 extra, for large $2 extra"}
+, {"code":"L2" 
+, "photo": "images/menu/L/L2.jpg" 
+, "price": "$9.75" 
+, "name": "General Tso's Chicken" 
+, "details": "chunks of chicken, breaded and deep-fried with sauce and scallions; white meat by request: for pint $1 extra, for large $2 extra"}
+, {"code":"L3" 
+, "photo": "images/menu/L/L3.jpg" 
+, "price": "$9.75" 
+, "name": "Chicken Cashewnuts" 
+, "details": "diced chicken with waterchestnuts, green peppers, and celery, and cashewnuts; white meat by request: for pint $1 extra, for large $2 extra"}
+, {"code":"L4" 
+, "photo": "images/menu/L/L4.jpg" 
+, "price": "$9.75" 
+, "name": "Kung Pao Chicken" 
+, "details": "beef sauteed with carrots and celery, in a spicy Szechuan sauce"}
+, {"code":"L5" 
+, "photo": "images/menu/L/L5.jpg" 
+, "price": "$9.75" 
+, "name": "Chicken String Bean" 
+, "details": "white meat chicken sauteed with string beans and soy sauce"}
+, {"code":"L6" 
+, "photo": "images/menu/L/L6.jpg" 
+, "price": "$9.75" 
+, "name": "Chicken Vegetable" 
+, "details": "white meat chicken in a clear white sauce sauteed with mixed vegetables"}
+, {"code":"L7" 
+, "photo": "images/menu/L/L7.jpg" 
+, "price": "$9.75" 
+, "name": "Chicken Garlic Sauce" 
+, "details": "chicken sauteed with string beans, mushrooms, and waterchestnuts in garlic sauce"}
+, {"code":"L8" 
+, "photo": "images/menu/L/L8.jpg" 
+, "price": "$9.75" 
+, "name": "Chicken Eggplant with Garlic Sauce" 
+, "details": "white meat chicken, string beans, waterchestnuts, mushrooms, and eggplant, in garlic sauce"}
+, {"code":"L9" 
+, "photo": "images/menu/L/L9.jpg" 
+, "price": "$9.75" 
+, "name": "Sweet and Sour Chicken" 
+, "details": "white meat chicken, breaded and fried with some green pepper, onion, and pineapples"}
+, {"code":"L10" 
+, "photo": "images/menu/L/L10.jpg" 
+, "price": "$9.75" 
+, "name": "Chicken Broccoli" 
+, "details": "white meat chicken sauteed with broccoli in brown sauce"}
+, {"code":"L11" 
+, "photo": "images/menu/L/L11.jpg" 
+, "price": "$9.75" 
+, "name": "Hunan Chicken" 
+, "details": "white meat chicken sauteed with broccoli, mushrooms, and baby corn in Hunan sauce"}
+, {"code":"L12" 
+, "photo": "images/menu/L/L12.jpg" 
+, "price": "$9.75" 
+, "name": "Szechuan Chicken" 
+, "details": "white meat chicken sauteed with carrots, celery, and bean sprouts in Szechuan sauce"}
+, {"code":"L13" 
+, "photo": "images/menu/L/L13.jpg" 
+, "price": "$9.75" 
+, "name": "Hunan Beef" 
+, "details": "beef sauteed with broccoli, mushrooms, and carrots in spicy Hunan sauce"}
+, {"code":"L14" 
+, "photo": "images/menu/L/L14.jpg" 
+, "price": "$9.75" 
+, "name": "Beef with Broccoli" 
+, "details": "sliced beef sauteed with broccoli in brown sauce"}
+, {"code":"L15" 
+, "photo": "images/menu/L/L15.jpg" 
+, "price": "$9.75" 
+, "name": "Beef with Garlic Sauce" 
+, "details": "sliced beef sauteed in garlic sauce"}
+, {"code":"L16" 
+, "photo": "images/menu/L/L16.jpg" 
+, "price": "$9.75" 
+, "name": "Beef String Bean" 
+, "details": "sliced beef sauteed with string beans and onions"}
+, {"code":"L17" 
+, "photo": "images/menu/L/L17.jpg" 
+, "price": "$9.75" 
+, "name": "Beef with Green Pepper" 
+, "details": "sliced beef sauteed with green peppers and onions in brown sauce"}
+, {"code":"L18" 
+, "photo": "images/menu/L/L18.jpg" 
+, "price": "$9.75" 
+, "name": "Veal with Mixed Vegetables" 
+, "details": "sliced veal sauteed with carrots, broccoli, snow peas, string beans, water chestnuts, and mushrooms in brown sauce"} 
+, {"code":"L19" 
+, "photo": "images/menu/L/L19.jpg" 
+, "price": "$9.75" 
+, "name": "Hunan Bean Curd" 
+, "details": "bean curd lightly fried then sauteed with green pepper, snow peas, and water chestnuts in brown sauce"} 
+, {"code":"L20" 
+, "photo": "images/menu/L/L20.jpg" 
+, "price": "$9.75" 
+, "name": "Bean Curd with Vegetables" 
+, "details": "Tofu lightly breaded and fried and sauteed with carrots, broccoli, snow peas, string beans, water chestnuts, and mushrooms in brown sauce"} 
+, {"code":"L21" 
+, "photo": "images/menu/L/L21.jpg" 
+, "price": "$9.75" 
+, "name": "Wok's Mixed Vegetables" 
+, "details": "broccoli, carrots, baby corn, water chestnuts, mushrooms, and snow peas sauteed in brown sauce"} 
+, {"code":"L22" 
+, "photo": "images/menu/L/L22.jpg" 
+, "price": "$9.75" 
+, "name": "Szechuan String Bean" 
+, "details": "onions and string beans sauteed with chef's sauce"} 
+, {"code":"L23" 
+, "photo": "images/menu/L/L23.jpg" 
+, "price": "$9.75" 
+, "name": "Eggplant with Garlic Sauce" 
+, "details": "eggplant sauteed with water chestnuts and string beans in garlic sauce"} 
+, {"code":"L24" 
+, "photo": "images/menu/L/L24.jpg" 
+, "price": "$9.75" 
+, "name": "Chicken Mei Fan" 
+, "details": "white meat chicken sauteed with onions and bean sprouts"} 
+, {"code":"L26" 
+, "photo": "images/menu/L/L26.jpg" 
+, "price": "$9.75" 
+, "name": "Chow Mein" 
+, "details": "white meat chicken OR beef OR vegetables, sauteed with bean sprouts, onions, and celery in white sauce"} 
+, {"code":"L27" 
+, "photo": "images/menu/L/L27.jpg" 
+, "price": "$9.75" 
+, "name": "Lo Mein" 
+, "details": "white meat chicken OR beef OR vegetables, sauteed with onions, and bean sprouts and soft lo mein noodles"} 
+, {"code":"L28" 
+, "photo": "images/menu/L/L28.jpg" 
+, "price": "$9.75" 
+, "name": "Sesame Chicken" 
+, "details": "chunks of chicken, breaded and deep-fried with a sesame seed sauce"}]

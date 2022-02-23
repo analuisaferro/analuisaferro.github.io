@@ -1,0 +1,20 @@
+[{"code": "NF10"
+, "photo": "images/menu/NF/NF10.jpg"
+, "price": "$12.95"
+, "name": "Vegetable Mei Fan"
+, "details": "broccoli, snow peas, onions, and bean sprouts sauteed with rice noodles"}
+, {"code": "NF11"
+, "photo": "images/menu/NF/NF11.jpg"
+, "price": "$14.95"
+, "name": "Chicken Mei Fan"
+, "details": "white meat chicken sauteed with onions and bean sprouts"}
+, {"code": "NF12"
+, "photo": "images/menu/NF/NF12.jpg"
+, "price": "$15.95"
+, "name": "Beef Mei Fan"
+, "details": "beef sauteed with onions and bean sprouts"}
+, {"code": "NF13"
+, "photo": "images/menu/NF/NF13.jpg"
+, "price": "$17.95"
+, "name": "House Special Mei Fan"
+, "details": "white meat chicken, beef, and veal sauteed with onions and bean sprouts"}]

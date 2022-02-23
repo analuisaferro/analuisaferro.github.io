@@ -1,0 +1,25 @@
+[{"code": "NL1"
+, "photo": "images/menu/NL/NL1.jpg"
+, "price": "$8.95<span> (pint)</span> $10.95 <span>(large)"
+, "name": "Vegetable Lo Mein"
+, "details": "broccoli, carrots, onions, snow peas, and bean sprouts sauteed with soft lo mein noodles"}
+, {"code": "NL2"
+, "photo": "images/menu/NL/NL2.jpg"
+, "price": "$9.95<span> (pint)</span> $11.95 <span>(large)"
+, "name": "Chicken Lo Mein"
+, "details": "white meat chicken, onions, and bean sprouts sauteed with soft lo mein noodles"}
+, {"code": "NL3"
+, "photo": "images/menu/NL/NL3.jpg"
+, "price": "$9.95<span> (pint)</span> $11.95 <span>(large)"
+, "name": "Beef Lo Mein"
+, "details": "beef, onions, and bean sprouts sauteed with soft lo mein noodles"}
+, {"code": "NL4"
+, "photo": "images/menu/NL/NL4.jpg"
+, "price": "$10.95<span> (pint)</span> $12.95 <span>(large)"
+, "name": "Veal Lo Mein"
+, "details": "veal, onions, and bean sprouts sauteed with soft lo mein noodles"}
+, {"code": "NL5"
+, "photo": "images/menu/NL/NL5.jpg"
+, "price": "$11.95<span> (pint)</span> $13.95 <span>(large)"
+, "name": "House Special Lo Mein"
+, "details": "white meat chicken, beef, veal, onions, and bean sprouts sauteed with soft lo mein noodles"}]

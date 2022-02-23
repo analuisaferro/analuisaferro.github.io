@@ -1,0 +1,16 @@
+[{"code": "CU21"
+, "photo": "images/menu/CU/CU21.jpg"
+, "price": "$11.95 (pint) $14.95 (large)"
+, "name": "Curry Chicken"
+, "details": "white meat chicken sauteed with ionions, peas, carrots, and broccoli"}
+,{"code": "CU22"
+, "photo": "images/menu/CU/CU22.jpg"
+, "price": "$12.95 (pint) $16.95 (large)"
+, "name": "Curry Beef"
+, "details": "beef sauteed with ionions, peas, carrots, and broccoli"}
+,{"code": "CU23"
+, "photo": "images/menu/CU/CU23.jpg"
+, "price": "$12.95 (pint) $17.95 (large)"
+, "name": "Curry Veal"
+, "details": "veal sauteed with ionions, peas, carrots, and broccoli"}]
+  

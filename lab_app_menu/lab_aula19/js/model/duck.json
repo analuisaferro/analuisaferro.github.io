@@ -1,0 +1,16 @@
+[{"code": "DK1"
+, "photo": "images/menu/DK/DK1.jpg"
+, "price": "$28.95 (half) $52.95 (whole)"
+, "name": "Peking Duck"
+, "details": "marinated duck roasted crisp and served with pancake and green onion with special sauce"}
+, {"code": "DK2"
+, "photo": "images/menu/DK/DK2.jpg"
+, "price": "$30.95"
+, "name": "Crispy Duck"
+, "details": "boneless duck meat, lightly breaded, deep fried to a crisp, topped with vegetables in chef's special sauce"}
+, {"code": "DK3"
+, "photo": "images/menu/DK/DK3.jpg"
+, "price": "$30.95"
+, "name": "Duck with Vegetables"
+, "details": "sliced lean duck meat sauteed with mixed vegtables in brown sauce"}]
+  

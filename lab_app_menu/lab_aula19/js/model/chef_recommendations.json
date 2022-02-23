@@ -1,0 +1,40 @@
+[{"code": "SP1"
+, "photo":  "images/menu/SP/SP1.jpg"
+, "price": "$18.95"
+, "name": "Chinese Scallion Pancake Wrap"
+, "details": "with choice of string bean, string bean chicken, string bean beef, beef onions, moo shu vegetable"}
+, {"code": "SP2"
+, "photo":  "images/menu/SP/SP2.jpg"
+, "price": "$18.95"
+, "name": "Teriyaki Chicken"
+, "details": "marinated grilled chicken breast with vegetables and lo mein on the side"}
+, {"code": "SP3"
+, "photo":  "images/menu/SP/SP3.jpg"
+, "price": "$15.95"
+, "name": "Vegetable Tempura"
+, "details": "assorted vegetables breaded and fried, served with lo mein on the side"}
+, {"code": "SP4"
+, "photo":  "images/menu/SP/SP4.jpg"
+, "price": "$19.95"
+, "name": "Orange Chicken and Beef Combo"
+, "details": "white meat chicken and beef, breaded and deep-fried with special house sauce; served with lo mein and vegetables"}
+, {"code": "SP5"
+, "photo":  "images/menu/SP/SP5.jpg"
+, "price": "$19.95"
+, "name": "Happy Family"
+, "details": "beef, veal, and chicken sauteed with mixed vegetables in chef's special sauce; lo mein served on the side"}
+, {"code": "SP6"
+, "photo":  "images/menu/SP/SP6.jpg"
+, "price": "$19.95"
+, "name": "Grilled Veal"
+, "details": "marinated and grilled veal served with vegetables and lo mein on the side"}
+, {"code": "SP7"
+, "photo":  "images/menu/SP/SP7.jpg"
+, "price": "$19.95"
+, "name": "Orange Beef"
+, "details": "a few cuts of beef, breaded, deep-fried with sauce containing orange peels; served with lo mein on the side"}
+, {"code": "SP8"
+, "photo":  "images/menu/SP/SP8.jpg"
+, "price": "$19.95"
+, "name": "Sesame Beef"
+, "details": "a few cuts of beef, breaded, deep-fried with sauce containing sesame seeds; served with lo mein on the side"}]

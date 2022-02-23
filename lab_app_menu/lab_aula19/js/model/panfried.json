@@ -1,0 +1,25 @@
+[{"code": "PF1"
+, "photo": "images/menu/PF/PF1.jpg"
+, "price": "$12.45"
+, "name": "Pan Fried Noodles with Vegetables"
+, "details": "broccoli, snow peas, mushrooms, water chestnuts, and carrots sauteed with brown sauce on a bed of crispy crunchy noodles"}
+, {"code": "PF2"
+, "photo": "images/menu/PF/PF2.jpg"
+, "price": "$16.45"
+, "name": "Pan Fried Noodles with Chicken"
+, "details": "white meat chicken sauteed with broccoli, snow peas, mushrooms, water chestnuts, and carrots with brown sauce on a bed of crispy crunchy noodles"}
+, {"code": "PF3"
+, "photo": "images/menu/PF/PF3.jpg"
+, "price": "$16.45"
+, "name": "Pan Fried Noodles with Beef"
+, "details": "sliced beef sauteed with broccoli, snow peas, mushrooms, water chestnuts, and carrots with brown sauce on a bed of crispy crunchy noodles"}
+, {"code": "PF4"
+, "photo": "images/menu/PF/PF4.jpg"
+, "price": "$17.45"
+, "name": "Pan Fried Noodles with Veal"
+, "details": "sliced veal sauteed with broccoli, snow peas, mushrooms, water chestnuts, and carrots with brown sauce on a bed of crispy crunchy noodles"}
+, {"code": "PF5"
+, "photo": "images/menu/PF/PF5.jpg"
+, "price": "$18.45"
+, "name": "House Special Pan Fried Noodles"
+, "details": "veal, beef, and chicken sauteed with broccoli, snow peas, mushrooms, water chestnuts, and carrots with brown sauce on a bed of crispy crunchy noodles"}]

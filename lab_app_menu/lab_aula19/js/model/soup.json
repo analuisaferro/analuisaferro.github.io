@@ -1,0 +1,55 @@
+[{"code": "A1"
+, "photo":  "images/menu/A/A1.jpg"
+, "price": "$2.55 (pint)  $5.00 (quart)"
+, "name": "Won Ton Soup with Chicken"
+, "details": "chicken-stuffed won tons in clear chicken broth with white meat chicken pieces and a few scallions"}
+, {"code": "A2"
+, "photo":  "images/menu/A/A2.jpg"
+, "price": "$2.25 (pint)  $4.50 (quart)"
+, "name": "Egg Drop Soup"
+, "details": "chicken broth with egg drop"}
+, {"code": "A3"
+, "photo":  "images/menu/A/A3.jpg"
+, "price": "$2.75 (pint)  $5.50 (quart)"
+, "name": "Chicken Corn Soup"
+, "details": "clear chicken broth with creamy corn and egg drop with white meat chicken pieces"}
+, {"code": "A4"
+, "photo":  "images/menu/A/A4.jpg"
+, "price": "$2.55 (pint)  $5.00 (quart)"
+, "name": "Hot and Sour Soup"
+, "details": "tofu, chicken, mushroom, bamboo shoot, and egg"}
+, {"code": "A5"
+, "photo":  "images/menu/A/A5.jpg"
+, "price": "$3.00 (pint)  $6.00 (quart)"
+, "name": "Egg Drop with Won Ton Soup"
+, "details": "chicken soup with egg drop and won tons"}
+, {"code": "A6"
+, "photo":  "images/menu/A/A6.jpg"
+, "price": "$2.55 (pint)  $5.00 (quart)"
+, "name": "Chicken Noodle (or Rice) Soup"
+, "details": "clear broth and lo mein noodles or white rice, chicken pieces"}
+, {"code": "A7"
+, "photo":  "images/menu/A/A7.jpg"
+, "price": "$2.55 (pint)  $5.00 (quart)"
+, "name": "Garden Vegetable Soup"
+, "details": "clear chicken broth with mixed vegetables (carrots, cabbage, baby corn, mushroom, snow peas)"}
+, {"code": "A8"
+, "photo":  "images/menu/A/A8.jpg"
+, "price": "$3.00 (pint)  $6.00 (quart)"
+, "name": "Garden Vegetable Soup with Tofu"
+, "details": "clear chicken broth with mixed vegetables (carrots, cabbage, baby corn, mushroom, snow peas) with tofu pieces"}
+, {"code": "A9"
+, "photo":  "images/menu/A/A9.jpg"
+, "price": "$3.25 (pint)  $6.40 (quart)"
+, "name": "Chicken with Garden Vegetable Soup"
+, "details": "clear chicken broth with mixed vegetables (carrots, cabbage, baby corn, mushroom, snow peas) and chicken pieces"}
+, {"code": "A10"
+, "photo":  "images/menu/A/A10.jpg"
+, "price": "$4.25 (pint)  $8.50 (quart)"
+, "name": "Hong Kong Style Won Ton Soup"
+, "details": "clear chicken broth with carrots, mushrooms, snow peas, and broccoli, and a few pieces of Hong Kong style won tons"}
+, {"code": "A11"
+, "photo":  "images/menu/A/A11.jpg"
+, "price": "$11.95"
+, "name": "Young Chow Won Ton Soup (for 2)"
+, "details": "clear chicken broth with vegetables, veal, chicken, and beef and won tons"}]

@@ -1,0 +1,60 @@
+[{"code": "F1"
+, "photo": "images/menu/F/F1.jpg"
+, "price": "$11.45 (pint) $15.45 (large)"
+, "name": "Beef Broccoli"
+, "details": "sliced beef sauteed with broccoli in brown sauce"}
+, {"code": "F2"
+, "photo": "images/menu/F/F2.jpg"
+, "price": "$11.45 (pint) $15.45 (large)"
+, "name": "Hunan Beef"
+, "details": "beef sauteed with broccoli, mushrooms, and carrots in spicy Hunan sauce"}
+, {"code": "F3"
+, "photo": "images/menu/F/F3.jpg"
+, "price": "$11.45 (pint) $15.45 (large)"
+, "name": "Szechuan Beef"
+, "details": "beef sauteed with carrots and celery, in a spicy Szechuan sauce"}
+, {"code": "F4"
+, "photo": "images/menu/F/F4.jpg"
+, "price": "$11.45 (pint) $15.45 (large)"
+, "name": "Beef with Mixed Vegetables"
+, "details": "sliced beef sauteed with mixed vegetables"}
+, {"code": "F5"
+, "photo": "images/menu/F/F5.jpg"
+, "price": "$11.45 (pint) $15.45 (large)"
+, "name": "Beef with Garlic Sauce"
+, "details": "sliced beef sauteed in garlic sauce"}
+, {"code": "F6"
+, "photo": "images/menu/F/F6.jpg"
+, "price": "$11.45 (pint) $15.45 (large)"
+, "name": "Beef with Eggplant in Garlic Sauce"
+, "details": "sliced beef sauteed with eggplant in garlic sauce"}
+, {"code": "F7"
+, "photo": "images/menu/F/F7.jpg"
+, "price": "$11.45 (pint) $15.45 (large)"
+, "name": "Beef with Snow Peas"
+, "details": "sliced beef sauteed with snow peas in brown sauce"}
+, {"code": "F8"
+, "photo": "images/menu/F/F8.jpg"
+, "price": "$11.45 (pint) $15.45 (large)"
+, "name": "Beef with Green Pepper"
+, "details": "sliced beef sauteed with green peppers and onions in brown sauce"}
+, {"code": "F9"
+, "photo": "images/menu/F/F9.jpg"
+, "price": "$11.45 (pint) $15.45 (large)"
+, "name": "Kung Pao Beef"
+, "details": "sliced beef sauteed with peanuts and celery in delicious Kung Pao sauce"}
+, {"code": "F10"
+, "photo": "images/menu/F/F10.jpg"
+, "price": "$11.45 (pint) $15.45 (large)"
+, "name": "Mongolian Beef"
+, "details": "sliced beef sauteed with bamboo shoots, onions, and green onions in chef's sauce"}
+, {"code": "F11"
+, "photo": "images/menu/F/F11.jpg"
+, "price": "$11.45 (pint) $15.45 (large)"
+, "name": "Moo Shu Beef"
+, "details": "sliced beef sauteed  with shredded cabbage, mushrooms and eggs, then wrapped with pancake and delicious plum sauce"}
+, {"code": "F12"
+, "photo": "images/menu/F/F12.jpg"
+, "price": "$11.45 (pint) $15.45 (large)"
+, "name": "Beef with String Bean"
+, "details": "sliced beef sauteed with string beans and onions"}]
