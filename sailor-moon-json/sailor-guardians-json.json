@@ -1,0 +1,115 @@
+{
+    "Guardians" : [
+        {
+            "ID" : 1,
+            "Name": "Usagi Tsukino",
+            "Guardian Identity" : "Sailor Moon",
+            "Aliases": ["Usagi Tsukino", "Sailor Moon", "Princess Serenity", "Neo-Queen Serenity"],
+            "Birthday": "June 30",
+            "Zodiac Sing": "Cancer",
+            "First Appearance": "Act 1 'Usagi - Sailor Moon'",
+            "Info" : "Guardian of Love and Justice",
+            "Introduction" : "I am the Pretty Guardian who Fights for Love and for Justice. I am Sailor Moon! And now in the name of the moon, I will punish you!"
+        },
+        {
+            "ID" : 2,
+            "Name": "Mizuno Ami",
+            "Guardian Identity" : "Sailor Mercury",
+            "Aliases": ["Ami Mizuno", "Sailor Mercury", "Princess Mercury"],
+            "Birthday": "September 10",
+            "Zodiac Sing": "Virgo",
+            "First Appearance": "Act 1 'Ami - Sailor Mercury'",
+            "Info" : "Guardian of Water and Wisdom",
+            "Introduction" : "I am the Pretty Guardian who fights for Love and Intelligence. I am Sailor Mercury! Douse yourself in water and repent!"
+        },
+        {
+            "ID" : 3,
+            "Name": "Rei Hino",
+            "Guardian Identity" : "Sailor Mars",
+            "Aliases": ["Rei Hino", "Sailor Mars", "Princess Mars"],
+            "Birthday": "April 17",
+            "Zodiac Sing": "Aries",
+            "First Appearance": "Act 3 'Rei - Sailor Mars'",
+            "Info" : "Guardian of Fire and Passion",
+            "Introduction" : "I am the Pretty Guardian who fights for Love and for Passion. I am Sailor Mars! In the Name of Mars, I'll chastise you!"
+        },
+        {
+            "ID" : 4,
+            "Name": "Makoto Kino",
+            "Guardian Identity" : "Sailor Jupiter",
+            "Aliases": ["Makoto Kino", "Sailor Jupiter", "Princess Jupiter"],
+            "Birthday": "December 5",
+            "Zodiac Sing": "Sagittarius",
+            "First Appearance": "Act 5 'Makoto - Sailor Jupiter'",
+            "Info" : "Guardian of Thunder and Courage",
+            "Introduction" : "I am the Pretty Guardian who fights for Love and for Courage. I am Sailor Jupiter! I'll fill you regret, it'll leave you numb!"
+        },
+        {
+            "ID" : 5,
+            "Name": "Minako Aino",
+            "Guardian Identity" : "Sailor Venus",
+            "Aliases": ["Minako Aino", "Sailor V", "Sailor Venus", "Princess Venus"],
+            "Birthday": "October 22",
+            "Zodiac Sing": "Libra",
+            "First Appearance": "Act 8 'Minako - Sailor V'",
+            "Info" : "Guardian of Love and Beauty",
+            "Introduction" : "I am the Pretty Guardian who fights for Love and for Beauty! I am Sailor Venus! In the Name of Venus, I'll punish you with the power of love!"
+        },
+        {
+            "ID" : 6,
+            "Name": "Chibiusa Tsukino",
+            "Guardian Identity" : "Sailor Chibi Moon",
+            "Aliases": ["Chibiusa", "Sailor Chibi Moon", "Princess Usagi Small Lady Serenity", "Black Lady"],
+            "Birthday": "June 30",
+            "Zodiac Sing": "Cancer",
+            "First Appearance": "Act 14 'Conclusion and Commencement - Petite Étrangere'",
+            "Info" : "Guardian of Love and Justice",
+            "Introduction" : "I am the Pretty Guardian (Trainee) who fights for Love and for Justice! I am Sailor Chibi Moon! And now in the Name of the (Future) Moon, I'll punish you!"
+        },
+        {
+            "ID" : 7,
+            "Name": "Setsuna Meiou",
+            "Guardian Identity" : "Sailor Pluto",
+            "Aliases": ["Setsuna Meiou", "Sailor Pluto", "Princess Pluto"],
+            "Birthday": "October 29",
+            "Zodiac Sing": "Scorpio",
+            "First Appearance": "Act 19 'Time Warp - Sailor Pluto'",
+            "Info" : "Guardian of Spacetime and Change",
+            "Introduction" : "I am the Keeper of the Door of Space and Time. I am Sailor Pluto. Guardian of the Underworld."
+        },
+        {
+            "ID" : 8,
+            "Name": "Haruka Tenou",
+            "Guardian Identity" : "Sailor Uranus",
+            "Aliases": ["Haruka Tenou", "Sailor Uranus", "Princess Uranus"],
+            "Birthday": "January 27",
+            "Zodiac Sing": "Aquarius",
+            "First Appearance": "Act 27 'Infinity 1, Premonition'",
+            "Info" : "Guardian of Sky and Flight",
+            "Introduction" : "Protected by Uranus, The Outer Planet of Wind, Guardian of the Heavens. I am Sailor Uranus."
+        },
+        {
+            "ID" : 9,
+            "Name": "Michiru Kaiou",
+            "Guardian Identity" : "Sailor Neptune",
+            "Aliases": ["Michiru Kaiou", "Sailor Neptune", "Princess Neptune"],
+            "Birthday": "March 6",
+            "Zodiac Sing": "Pisces",
+            "First Appearance": "Act 27  'Infinity 1, Premonition'",
+            "Info" : "Guardian of Ocean and Embrace.",
+            "Introduction" : "Protected by Neptune, the Outer Planet of the Seas, Guardian of the Deep Sea, I am Sailor Neptune. "
+        },
+        {
+            "ID" : 10,
+            "Name": "Hotaru Tomoe",
+            "Guardian Identity" : "Sailor Saturn",
+            "Aliases": ["Hotaru Tomoe", "Sailor Saturn", "Messiah of Silence", "Goddess of Destruction and Rebirth" ,"Princess Saturn"],
+            "Birthday": "January 6",
+            "Zodiac Sing": "Capricorn",
+            "First Appearance": "Act 27 'Infinity 1, Premonition'",
+            "Info" : "Guardian of Silence, Destruction, and Rebirth",
+            "Introduction" : "I am an emissary from the abyss of Death. Protected by Saturn, the Outer Planet of Destruction, the Guardian of Silence. I am Sailor Saturn."
+        }
+
+    ]
+}
