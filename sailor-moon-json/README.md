@@ -1,5 +1,3 @@
-"In the name of The Moon, I'll punish you!" 🌙🎀
-
 🌙 JSON file made from data from:
 
 https://sailormoon.fandom.com/
