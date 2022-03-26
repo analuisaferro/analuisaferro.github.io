@@ -10,11 +10,12 @@
             "firstappearance": "Act 1 'Usagi - Sailor Moon'",
             "info" : "Guardian of Love and Justice",
             "introduction" : "I am the Pretty Guardian who Fights for Love and for Justice. I am Sailor Moon! And now in the name of the moon, I will punish you!",
-            "img" : "https://analuisaferro.github.io/sailor-moon-json/guardians-pic/bust-1.png"
+            "img" : "https://analuisaferro.github.io/sailor-moon-json/guardians-pic/bust-1.png",
+            "bio" : "Usagi Tsukino (月野 うさぎ) is the main protagonist of the series. Usagi is a careless fourteen-year-old girl with an enormous capacity for love, compassion, and understanding. At the beginning of the series, she is a self-described immature crybaby who resents fighting evil and wants nothing more than to be a normal girl. As the story progresses, however, she embraces the chance to use her power to protect those she cares about."
         },
         {
             "Id" : 2,
-            "name": "Mizuno Ami",
+            "name": "Ami Mizuno ",
             "guardianidentity" : "Sailor Mercury",
             "aliases": ["Ami Mizuno", "Sailor Mercury", "Princess Mercury"],
             "birthday": "September 10",
@@ -22,7 +23,8 @@
             "firstappearance": "Act 1 'Ami - Sailor Mercury'",
             "info" : "Guardian of Water and Wisdom",
             "introduction" : "I am the Pretty Guardian who fights for Love and Intelligence. I am Sailor Mercury! Douse yourself in water and repent!",
-            "img" : "https://analuisaferro.github.io/sailor-moon-json/guardians-pic/bust-2.png"
+            "img" : "https://analuisaferro.github.io/sailor-moon-json/guardians-pic/bust-2.png",
+            "bio" : "Ami Mizuno (水野 亜美) is a quiet but intelligent fourteen-year-old bookworm in Usagi's class with a rumored IQ of 300. Ami's shy exterior masks a passion for learning and taking care of the people around her. She hopes to eventually become a doctor like her mother, and tends to be the practical one in the group."
         },
         {
             "Id" : 3,
@@ -34,7 +36,8 @@
             "firstappearance": "Act 3 'Rei - Sailor Mars'",
             "info" : "Guardian of Fire and Passion",
             "introduction" : "I am the Pretty Guardian who fights for Love and for Passion. I am Sailor Mars! In the Name of Mars, I'll chastise you!",
-            "img" : "https://analuisaferro.github.io/sailor-moon-json/guardians-pic/bust-3.png"
+            "img" : "https://analuisaferro.github.io/sailor-moon-json/guardians-pic/bust-3.png",
+            "bio" : "Rei Hino (火野 レイ) is an elegant fourteen-year-old miko (English: shrine maiden). Because of her work as a Shinto priestess, Rei has limited precognition and can dispel or nullify evil using special ofuda scrolls, even in her civilian form. She is very serious and focused, and easily becomes annoyed by Usagi's laziness, although she cares about her very much."
         },
         {
             "Id" : 4,
@@ -46,7 +49,8 @@
             "firstappearance": "Act 5 'Makoto - Sailor Jupiter'",
             "info" : "Guardian of Thunder and Courage",
             "introduction" : "I am the Pretty Guardian who fights for Love and for Courage. I am Sailor Jupiter! I'll fill you regret, it'll leave you numb!",
-            "img" : "https://analuisaferro.github.io/sailor-moon-json/guardians-pic/bust-4.png"
+            "img" : "https://analuisaferro.github.io/sailor-moon-json/guardians-pic/bust-4.png",
+            "bio" : "Makoto Kino (木野 まこと) is a fourteen-year-old girl who is a student in Usagi Tsukino's class and was rumoured to have been expelled from her previous school for fighting. Both of Makoto's parents died in a plane crash years ago, so she lives alone and takes care of herself. She cultivates her physical strength and domestic interests, including housekeeping, cooking, and gardening. Makoto excels at hand-to-hand combat."
         },
         {
             "Id" : 5,
@@ -58,7 +62,8 @@
             "firstappearance": "Act 8 'Minako - Sailor V'",
             "info" : "Guardian of Love and Beauty",
             "introduction" : "I am the Pretty Guardian who fights for Love and for Beauty! I am Sailor Venus! In the Name of Venus, I'll punish you with the power of love!",
-            "img" : "https://analuisaferro.github.io/sailor-moon-json/guardians-pic/bust-5.png"
+            "img" : "https://analuisaferro.github.io/sailor-moon-json/guardians-pic/bust-5.png",
+            "bio" : "Minako Aino (愛野 美奈子) is a fourteen-year-old perky dreamer. Minako first appears as the main protagonist of Codename: Sailor V. She has a companion cat called Artemis who works alongside Luna in guiding the Sailor Guardians. She leads Sailor Moon's four inner Guardians, while acting as Sailor Moon's bodyguard and decoy because of their near-identical looks. She dreams of becoming a famous singer and idol, and attends auditions whenever she can."
         },
         {
             "Id" : 6,
@@ -70,7 +75,8 @@
             "firstappearance": "Act 14 'Conclusion and Commencement - Petite Étrangere'",
             "info" : "Guardian of Love and Justice",
             "introduction" : "I am the Pretty Guardian Trainee who fights for Love and for Justice! I am Sailor Chibi Moon! And now in the Name of the Future Moon, I'll punish you!",
-            "img" : "https://analuisaferro.github.io/sailor-moon-json/guardians-pic/bust-6.png"
+            "img" : "https://analuisaferro.github.io/sailor-moon-json/guardians-pic/bust-6.png",
+            "bio" : "Chibiusa (ちびうさ) is the future daughter of Neo-Queen Serenity and King Endymion in the 30th century. She later trains with Sailor Moon to become a Sailor Guardian in her own right, and learns to transform into Sailor Chibi Moon. At times she has an adversarial relationship with her mother in the 20th century."
         },
         {
             "Id" : 7,
@@ -82,7 +88,8 @@
             "firstappearance": "Act 19 'Time Warp - Sailor Pluto'",
             "info" : "Guardian of Spacetime and Change",
             "introduction" : "I am the Keeper of the Door of Space and Time. I am Sailor Pluto. Guardian of the Underworld.",
-            "img" : "https://analuisaferro.github.io/sailor-moon-json/guardians-pic/bust-7.png"
+            "img" : "https://analuisaferro.github.io/sailor-moon-json/guardians-pic/bust-7.png",
+            "bio" : "Setsuna Meioh (冥王 せつな) is a mysterious woman who appears first as Sailor Pluto. She has the duty of guarding the Space-Time Door from unauthorized travelers. Only later does she appear on Earth, living as a college student. She has a distant personality and can be very stern, but can also be quite friendly and helps the Sailor Guardians when she can. After her long vigil guarding the Space-Time Door she carries a deep sense of loneliness, although she is close friends with Chibiusa"
         },
         {
             "Id" : 8,
@@ -94,7 +101,8 @@
             "firstappearance": "Act 27 'Infinity 1, Premonition'",
             "info" : "Guardian of Sky and Flight",
             "introduction" : "Protected by Uranus, The Outer Planet of Wind, Guardian of the Heavens. I am Sailor Uranus.",
-            "img" : "https://analuisaferro.github.io/sailor-moon-json/guardians-pic/bust-8.png"
+            "img" : "https://analuisaferro.github.io/sailor-moon-json/guardians-pic/bust-8.png",
+            "bio" : "Haruka Tenoh (天王 はるか) is a good-natured tomboyish girl who is a year older than most of the other Sailor Guardians. Before becoming a Sailor Guardian, she aspired to become a race car driver, and she has excellent driving skills. When fighting the enemy she distrusts outside help and prefers to work solely with her girlfriend, Sailor Neptune, and later Sailors Pluto and Saturn."
         },
         {
             "Id" : 9,
@@ -106,7 +114,8 @@
             "firstappearance": "Act 27  'Infinity 1, Premonition'",
             "info" : "Guardian of Ocean and Embrace.",
             "introduction" : "Protected by Neptune, the Outer Planet of the Seas, Guardian of the Deep Sea, I am Sailor Neptune. ",
-            "img" : "https://analuisaferro.github.io/sailor-moon-json/guardians-pic/bust-9.png"
+            "img" : "https://analuisaferro.github.io/sailor-moon-json/guardians-pic/bust-9.png",
+            "bio" : "Michiru Kaioh (海王 みちる) is an elegant and talented violinist and painter. Similar to her partner, Haruka Tenoh, she hails from a wealthy family. She worked alone for some time before finding her partner, Sailor Uranus. Neptune ultimately gave up her own dreams and became fully devoted to her duty as a Sailor Guardian, and is willing to make any sacrifice for it."
         },
         {
             "Id" : 10,
@@ -118,7 +127,8 @@
             "firstappearance": "Act 27 'Infinity 1, Premonition'",
             "info" : "Guardian of Silence, Destruction, and Rebirth",
             "introduction" : "I am an emissary from the abyss of Death. Protected by Saturn, the Outer Planet of Destruction, the Guardian of Silence. I am Sailor Saturn.",
-            "img" : "https://analuisaferro.github.io/sailor-moon-json/guardians-pic/bust-10.png"
+            "img" : "https://analuisaferro.github.io/sailor-moon-json/guardians-pic/bust-10.png",
+            "bio" : "Hotaru Tomoe (土萠 ほたる) is a sweet and lonely young girl. A laboratory accident in her youth significantly compromised her health. After overcoming the darkness that has surrounded her family, Hotaru is able to become Sailor Saturn. She is often pensive, and as a human has the inexplicable power to heal others. Sailor Saturn's weapon is her Silence Glaive, which gives her the power to generate barriers and destroy a planet. When she uses that power, she kills herself but is reborn afterwards by Sailor Moon."
         }
 
     ]

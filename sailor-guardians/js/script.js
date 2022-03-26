@@ -1,4 +1,5 @@
-const link1 = document.getElementById('1')
+// (matches with sailors id)
+const link1 = document.getElementById('1');
 const link2 = document.getElementById('2');
 const link3 = document.getElementById('3');
 const link4 = document.getElementById('4');
@@ -8,42 +9,52 @@ const link7 = document.getElementById('7');
 const link8 = document.getElementById('8');
 const link9 = document.getElementById('9');
 const link10 = document.getElementById('10');
+const test = document.querySelector(".sailorlink")
 const cont = document.querySelector('.container')
 let xhr = new XMLHttpRequest();
 
-link1.addEventListener('click',function(){
-    cont.innerHTML=" ";
-    xhr.open('GET', 'https://analuisaferro.github.io/sailor-moon-json/sailor-guardians-json.json');
+req(1);
 
-    xhr.onreadystatechange = function(){
-        if (xhr.readyState==4 && xhr.status==200){
-            let objJSON = JSON.parse(xhr.responseText);
-            console.log(objJSON);
-            let guardian = objJSON.guardians[0];
-            console.log(guardian)
-            infoconstructor(guardian);
-            
-        }
-    };
-    xhr.send();
+link1.addEventListener('click',function(){
+    req(this.id);
 });
 link2.addEventListener('click',function(){
     req(this.id);
 });
-    
+link3.addEventListener('click',function(){
+    req(this.id);
+});
+link4.addEventListener('click',function(){
+    req(this.id);
+});
+link5.addEventListener('click',function(){
+    req(this.id);
+});
+link6.addEventListener('click',function(){
+    req(this.id);
+});
+link7.addEventListener('click',function(){
+    req(this.id);
+});
+link8.addEventListener('click',function(){
+    req(this.id);
+});
+link9.addEventListener('click',function(){
+    req(this.id);
+});
+link10.addEventListener('click',function(){
+    req(this.id);
+});
+
+
 function req(id){
-    console.log(id);
     cont.innerHTML="";
     xhr.open('GET', 'https://analuisaferro.github.io/sailor-moon-json/sailor-guardians-json.json');
     xhr.onreadystatechange = function(){
         if (xhr.readyState==4 && xhr.status==200){
             let objJSON = JSON.parse(xhr.responseText);
-            console.log(objJSON.ID);
-            const sailorId = objJSON.find(id => objJSON.ID == id)
-            
-            let guardian = objJSON.guardians[sailorId];
+            let guardian = objJSON.guardians[id-1]; //array index starts at 0, but sailor id starts at 1
             infoconstructor(guardian);
-            
         }
     };
     xhr.send();
@@ -55,10 +66,10 @@ function infoconstructor(guardian){
     rightDiv.setAttribute("id", "rightDiv");
 
     //working on leftDiv of '.container'
-    leftDiv.innerHTML = `<h2>${guardian.guardianidentity}</h2>
+    leftDiv.innerHTML = `<p>${guardian.bio}</p>
     <p class="tiny">${guardian.info}</p>
     <img src="${guardian.img}" alt="${guardian.name} bust">
-    <p>${guardian.introduction}</p>`;
+    <p>"${guardian.introduction}"</p>`;
 
     cont.appendChild(leftDiv);
 
@@ -68,16 +79,12 @@ function infoconstructor(guardian){
     <p>First Appearance: ${guardian.firstappearance}</p>
     <p>Aliases:</p>`;
     const aliasesUl = document.createElement('ul');
-    console.log(guardian.aliases);
     for(alias of guardian.aliases){
         let aliasesLi = document.createElement('li');
         aliasesLi.innerHTML = alias;
         aliasesUl.appendChild(aliasesLi);
     }
-
     rightDiv.appendChild(aliasesUl);
 
-
     cont.appendChild(rightDiv);
-
 }
