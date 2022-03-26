@@ -22,7 +22,7 @@
             "firstappearance": "Act 1 'Ami - Sailor Mercury'",
             "info" : "Guardian of Water and Wisdom",
             "introduction" : "I am the Pretty Guardian who fights for Love and Intelligence. I am Sailor Mercury! Douse yourself in water and repent!",
-            "img" : "https://analuisaferro.github.io/sailor-moon-json/guardians-pic/bust-1.png"
+            "img" : "https://analuisaferro.github.io/sailor-moon-json/guardians-pic/bust-2.png"
         },
         {
             "ID" : 3,
@@ -34,7 +34,7 @@
             "firstappearance": "Act 3 'Rei - Sailor Mars'",
             "info" : "Guardian of Fire and Passion",
             "introduction" : "I am the Pretty Guardian who fights for Love and for Passion. I am Sailor Mars! In the Name of Mars, I'll chastise you!",
-            "img" : "https://analuisaferro.github.io/sailor-moon-json/guardians-pic/bust-1.png"
+            "img" : "https://analuisaferro.github.io/sailor-moon-json/guardians-pic/bust-3.png"
         },
         {
             "ID" : 4,
@@ -46,7 +46,7 @@
             "firstappearance": "Act 5 'Makoto - Sailor Jupiter'",
             "info" : "Guardian of Thunder and Courage",
             "introduction" : "I am the Pretty Guardian who fights for Love and for Courage. I am Sailor Jupiter! I'll fill you regret, it'll leave you numb!",
-            "img" : "https://analuisaferro.github.io/sailor-moon-json/guardians-pic/bust-1.png"
+            "img" : "https://analuisaferro.github.io/sailor-moon-json/guardians-pic/bust-4.png"
         },
         {
             "ID" : 5,
@@ -58,7 +58,7 @@
             "firstappearance": "Act 8 'Minako - Sailor V'",
             "info" : "Guardian of Love and Beauty",
             "introduction" : "I am the Pretty Guardian who fights for Love and for Beauty! I am Sailor Venus! In the Name of Venus, I'll punish you with the power of love!",
-            "img" : "https://analuisaferro.github.io/sailor-moon-json/guardians-pic/bust-1.png"
+            "img" : "https://analuisaferro.github.io/sailor-moon-json/guardians-pic/bust-5.png"
         },
         {
             "ID" : 6,
@@ -70,7 +70,7 @@
             "firstappearance": "Act 14 'Conclusion and Commencement - Petite Étrangere'",
             "info" : "Guardian of Love and Justice",
             "introduction" : "I am the Pretty Guardian Trainee who fights for Love and for Justice! I am Sailor Chibi Moon! And now in the Name of the Future Moon, I'll punish you!",
-            "img" : "https://analuisaferro.github.io/sailor-moon-json/guardians-pic/bust-1.png"
+            "img" : "https://analuisaferro.github.io/sailor-moon-json/guardians-pic/bust-6.png"
         },
         {
             "ID" : 7,
@@ -82,7 +82,7 @@
             "firstappearance": "Act 19 'Time Warp - Sailor Pluto'",
             "info" : "Guardian of Spacetime and Change",
             "introduction" : "I am the Keeper of the Door of Space and Time. I am Sailor Pluto. Guardian of the Underworld.",
-            "img" : "https://analuisaferro.github.io/sailor-moon-json/guardians-pic/bust-1.png"
+            "img" : "https://analuisaferro.github.io/sailor-moon-json/guardians-pic/bust-7.png"
         },
         {
             "ID" : 8,
@@ -94,7 +94,7 @@
             "firstappearance": "Act 27 'Infinity 1, Premonition'",
             "info" : "Guardian of Sky and Flight",
             "introduction" : "Protected by Uranus, The Outer Planet of Wind, Guardian of the Heavens. I am Sailor Uranus.",
-            "img" : "https://analuisaferro.github.io/sailor-moon-json/guardians-pic/bust-1.png"
+            "img" : "https://analuisaferro.github.io/sailor-moon-json/guardians-pic/bust-8.png"
         },
         {
             "ID" : 9,
@@ -106,7 +106,7 @@
             "firstappearance": "Act 27  'Infinity 1, Premonition'",
             "info" : "Guardian of Ocean and Embrace.",
             "introduction" : "Protected by Neptune, the Outer Planet of the Seas, Guardian of the Deep Sea, I am Sailor Neptune. ",
-            "img" : "https://analuisaferro.github.io/sailor-moon-json/guardians-pic/bust-1.png"
+            "img" : "https://analuisaferro.github.io/sailor-moon-json/guardians-pic/bust-9.png"
         },
         {
             "ID" : 10,
@@ -118,7 +118,7 @@
             "firstappearance": "Act 27 'Infinity 1, Premonition'",
             "info" : "Guardian of Silence, Destruction, and Rebirth",
             "introduction" : "I am an emissary from the abyss of Death. Protected by Saturn, the Outer Planet of Destruction, the Guardian of Silence. I am Sailor Saturn.",
-            "img" : "https://analuisaferro.github.io/sailor-moon-json/guardians-pic/bust-1.png"
+            "img" : "https://analuisaferro.github.io/sailor-moon-json/guardians-pic/bust-10.png"
         }
 
     ]
