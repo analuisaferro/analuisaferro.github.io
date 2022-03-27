@@ -1,3 +1,6 @@
+html{
+    font-size: 62.5%;
+}
 body {
     background-color: #b2acfa;
     height: 100%;
@@ -7,13 +10,25 @@ body {
     left: 0;
     top: 0;
 }
-p, h1, h2, h3, h4, ul, li, a{
+p, h1, h2, h3, h4, li, a{
+    
     margin: 0;
+    color: #293845;
     font-family: 'Source Sans Pro', sans-serif;
 
 
-/* header */
+
 }
+p, li{
+    font-size: 1.75rem;
+}
+a{
+    font-size: 1.60rem;
+}
+h1{
+    font-size: 3rem;
+}
+/* header */
 header{
     margin: auto;
     width: 80%;
@@ -21,7 +36,7 @@ header{
     align-items: center;
 }
 header > img{
-    width: 130px;
+    width: 100px;
 }
 header > h1{
     margin-left: 20px;
@@ -31,34 +46,70 @@ header > h1{
 /* nav */
 nav {
     width: fit-content;
-    margin: 20px auto 30px auto;
+    margin: 30px auto 20px auto;
 }
 nav > a {
-    
-    margin-inline-end: 7px;
-    margin-inline-start: 7px;
+    padding: 7px 0px 7px 0px;
+    padding-inline-end: 8px;
+    padding-inline-start: 8px;
     text-decoration: none;
+    cursor: pointer;
+}
+.btn{
+    transition: color .2s ease-out;
+}
+.btn:hover{
+    color: rgb(255, 255, 255);
 }
 /* main */
 .container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 20px;
+    column-gap: 100px;
     background-color: white;
-    width: 85%;
+    width: 1010px;
     margin: auto;
-    padding: 50px;
+    padding: 50px 50px 100px 50px;
+    border-style: groove;
+    border-width: 1.5px;
 }
+
+/* left div */
+
 #leftDiv{
     display: grid;
-    justify-items: center
-}
-#rightDiv{
-    
+    justify-items: center;
 }
 #leftDiv > p{
     text-align: center;
 }
 #leftDiv > img {
-    width: 40%;
+    width: 30vh;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
+.title{
+    font-weight: 800;
+    font-size: 25px;
+}
+.desc{
+    font-size: 1.5rem;
+}
+.intro{
+    font-style: italic;
+    width: 410px;
+}
+/* right div */
+.block{
+    margin-top: 20px;
+}
+#rightDiv > ul{
+    list-style-type: none;
+    
+}
+#rightDiv > p{
+    margin-bottom: 10px;
+}
+
+
+

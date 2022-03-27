@@ -66,15 +66,16 @@ function infoconstructor(guardian){
     rightDiv.setAttribute("id", "rightDiv");
 
     //working on leftDiv of '.container'
-    leftDiv.innerHTML = `<p>${guardian.bio}</p>
-    <p class="tiny">${guardian.info}</p>
+    console.log(guardian);
+    leftDiv.innerHTML = `<p class="title">${guardian.guardianidentity}</p>
+    <p class="desc">${guardian.info}</p>
     <img src="${guardian.img}" alt="${guardian.name} bust">
-    <p>"${guardian.introduction}"</p>`;
+    <p class="intro">"${guardian.introduction}"</p>`;
 
     cont.appendChild(leftDiv);
 
     //working on rightDiv of '.container'
-    rightDiv.innerHTML = `<p>Name: ${guardian.name}</p>
+    rightDiv.innerHTML = `<p class="block">${guardian.bio}</p>
     <p>Birthday: ${guardian.birthday} (${guardian.zodiacsign})</p>
     <p>First Appearance: ${guardian.firstappearance}</p>
     <p>Aliases:</p>`;
