@@ -1,0 +1,22 @@
+body{
+    display: grid;
+    justify-content: center;
+    background-color: ghostwhite;
+    
+}
+* {
+    font-family: 'Nunito', sans-serif;
+}
+#cpf-validate{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    color: white;
+    background-color: #4BC433;
+    padding: 2px 12px 2px 12px;
+    border-radius: 4px;
+    border-style: solid;
+}
+#cpf-validate:hover{
+    background-color: #43AB2E;
+}

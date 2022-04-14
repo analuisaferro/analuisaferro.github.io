@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,500;1,300;1,400&display=swap" rel="stylesheet">
+
+    <title>CPF Validator</title>
+</head>
+<body>
+    <main class="container">
+        <h2>Validador de CPF</h2>
+        <label for="cpf">Digite um CPF: </label>
+        <input type="text" autocomplete="off" name="cpf" id="cpf-input" maxlength="14" pattern="[0-9]+$">
+        <input type="button" value="Validar" id="cpf-validate">
+        <div class="response"></div>
+    </main> 
+    <script src="./src/script.js"></script>
+</body>
+</html>
