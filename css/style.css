@@ -1,11 +1,10 @@
 body {
-    margin: 0;
-    padding: 0;
-    left: 0;
-    top: 0;
     background:url(
         data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAAXNSR0IArs4c6QAAAEtJREFUKFNjfPz48X9ZWVlGBigA8UFMdDG4ApAksiZ0A1BMQjYFXSNYIbpJyFbD5BixKYK5F2YDSA3xCom2GjlYCHoGm2KM4CE2wAF5b2are/zRHAAAAABJRU5ErkJggg==
            ) repeat;
+    display: grid;
+    grid-template-columns: 600px 600px;
+
 }
 * {
     padding: 0;
@@ -22,7 +21,6 @@ a {
     border-color: rgb(196, 196, 196);
     border-top-right-radius: 5px;
     width: 410px;
-    position: fixed;
     height: 560px;
 }
 #avatar {
@@ -122,8 +120,10 @@ h1, h2, h3, p, a, li{
     width: 100%;
 }
 #principal-content{
-    position: relative;
-    top: 70px; left: 550px;
+    top: 70px; 
+    left: 550px;
+    height: 550px;
+    margin-top: 50px;
     width: 650px;
     max-width: 750px;
     background-color: rgb(255, 255, 255);
