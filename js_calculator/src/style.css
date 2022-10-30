@@ -1,0 +1,71 @@
+p{
+    margin: 0;
+}
+h2{
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+}
+.main{
+    width: 260px;
+    height: 320px;
+    margin: auto;
+    border: solid;
+    border-color: #a9a9a9;
+    background-color: #a9a9a9;
+    padding: 15px 7px 4px 7px;
+}
+.btns{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 1px;
+    grid-row-gap: 1px;
+}
+.btns > input{
+    font-family: 'Dosis', sans-serif;
+    color: #fff;
+    padding: 10px;
+    font-size: 23px;
+    border: none;
+    transition-duration: 0.2s;
+}
+.num{
+    background-color: rgb(141, 141, 141);
+}
+.num:hover{
+    background-color: rgb(131, 131, 131);
+}
+.zero-button{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.eq-button{
+    grid-row-start: span 2;
+    background-color: rgb(111, 134, 184);
+}
+.eq-button:hover{
+    background-color: rgb(90, 111, 156)
+}
+.c-button, .del-button{
+    background-color: rgb(184, 111, 111);
+}
+.c-button:hover, .del-button:hover{
+    background-color: rgb(160, 99, 99);
+}
+.bar-button, .mx-button, .plus-button, .minus-button{
+    background-color: rgb(122, 122, 122);
+}
+.bar-button:hover, .mx-button:hover, .plus-button:hover, .minus-button:hover{
+    background-color: rgb(104, 104, 104);
+}
+.show {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+    background-color: rgb(134, 134, 134);
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    padding: 2px 0 2px 0;
+    margin-bottom: 5px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+    <title>JS Calculator</title>
+</head>
+<body>
+    <h2>JS Calculator</h2>
+    <div class="main">
+    <div class="show">
+        <p>></p>
+        <span class="display"></span>
+    </div>
+    <div class="btns">
+        <input type="button" value="C" class="c-button" onclick="clean()">
+        <input type="button" value="DEL" class="del-button" onclick="erase()">
+        <input type="button" value="/" class="bar-button" onclick="display(this.value)">
+        <input type="button" value="*" class="mx-button" onclick="display(this.value)">
+        <input type="button" value="7" class="seven-button num" onclick="display(this.value)">
+        <input type="button" value="8" class="eight-button num" onclick="display(this.value)">
+        <input type="button" value="9" class="nine-button num" onclick="display(this.value)">
+        <input type="button" value="-" class="minus-button" onclick="display(this.value)">
+        <input type="button" value="4" class="four-button num" onclick="display(this.value)">
+        <input type="button" value="5" class="five-button num" onclick="display(this.value)">
+        <input type="button" value="6" class="six-button num" onclick="display(this.value)">
+        <input type="button" value="+" class="plus-button" onclick="display(this.value)">
+        <input type="button" value="1" class="one-button num" onclick="display(this.value)">
+        <input type="button" value="2" class="two-button num" onclick="display(this.value)">
+        <input type="button" value="3" class="three-button num" onclick="display(this.value)">
+        <input type="button" value="=" class="eq-button" onclick="result()">
+
+        <input type="button" value="0" class="zero-button num" onclick="display(this.value)">
+        <input type="button" value="." class="dot-button num" onclick="display(this.value)">
+        
+    </div>
+</div>
+</body>
+</html>
+<script src="./src/script.js"></script>
