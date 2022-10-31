@@ -5,7 +5,7 @@ localStorage.getItem("minhasNotas") ? notas = localStorage.getItem("minhasNotas"
 
 window.onload = function(){
     if(localStorage.getItem("minhasNotas")){
-        loadNotes()
+        loadNotes();
     }
 }
 
@@ -27,7 +27,7 @@ function loadNotes(){
 }
 function addNote(title, text){
     if (localStorage.getItem("minhasNotas")){
-        notas = notesManage()
+        notas = notesManage();
         notas.push({"noteTitle": title, "noteText": text});
     }
     else{
@@ -38,11 +38,11 @@ function addNote(title, text){
 function constructVNote(title, text, i){
     let divNote = document.createElement("div");
     divNote.innerHTML =  `<h3>${title}</h3><p>${text}</p> <button onclick="deleteNote(${i})">Delete</button>`;
-    show.appendChild(divNote)
+    show.appendChild(divNote);
 }
 function notesManage(attNotes=null, action=null){
     if(action == "POST")
-        localStorage.setItem("minhasNotas", JSON.stringify(attNotes))
+        localStorage.setItem("minhasNotas", JSON.stringify(attNotes));
     else{
         notas = JSON.parse(localStorage.getItem("minhasNotas"));
         return notas;
