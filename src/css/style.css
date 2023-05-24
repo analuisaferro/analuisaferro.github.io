@@ -1,0 +1,15 @@
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+ul{
+    list-style: none;
+    display: inline;
+}
+li{
+    display: inline;
+}
+:root{
+    --main-color: #fff8ff
+}
