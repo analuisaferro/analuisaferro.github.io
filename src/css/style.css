@@ -2,12 +2,21 @@ body, html{
     margin: 0;
     padding: 0;
 }
+body{
+    /* background-color: rgb(18, 18, 18); */
+}
+h1, h2, h3, h4, p, a{
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+}
+
 .nav-bar{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     border-bottom: solid 0.2px;
     border-color: rgb(158, 157, 157);
+    padding-inline: 5px;
 }
 ul{
     list-style: none;
@@ -16,8 +25,12 @@ ul{
 li{
     display: inline;
 }
+li > a{
+    color: black;
+    text-decoration: none;
+}
 .red > li{
-    margin: 25px;
+    margin: 35px;
     color: var(--main-color);
 }
 .gh{
@@ -27,10 +40,20 @@ li{
     margin: 30vh 0 0 0;
     display: flex;
     justify-content: center;
+    align-items: center
+}
+.title{
+    font-size: 50px;
+}
+.el{
+    font-size: 25px;
 }
 .img > img{
     border-radius: 100%;
     width: 250px;
+}
+.text{
+    margin-right: 25px;
 }
 :root{
     --main-color: #fff8ff
