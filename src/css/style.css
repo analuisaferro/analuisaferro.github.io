@@ -44,6 +44,7 @@ li > a{
 }
 .title{
     font-size: 50px;
+    margin-bottom: 8px;
 }
 .el{
     font-size: 25px;
@@ -54,6 +55,7 @@ li > a{
 }
 .text{
     margin-right: 25px;
+    width: 1000px;
 }
 :root{
     --main-color: #fff8ff
