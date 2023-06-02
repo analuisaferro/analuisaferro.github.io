@@ -6,10 +6,17 @@ body{
     /* background-color: rgb(18, 18, 18); */
 }
 h1, h2, h3, h4, p, a{
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
 }
-
+h1{
+    font-weight: 400;
+    font-size: 50px;
+}
+h2{
+    font-weight: 400;
+    font-size: 35px;
+}
 .nav-bar{
     display: flex;
     justify-content: space-between;
@@ -37,13 +44,14 @@ li > a{
     margin: 10px;
 }
 .main{
-    margin: 30vh 0 0 0;
+    height: 93vh;
     display: flex;
     justify-content: center;
     align-items: center
+    
 }
 .title{
-    font-size: 50px;
+
     margin-bottom: 8px;
 }
 .el{
@@ -55,7 +63,10 @@ li > a{
 }
 .text{
     margin-right: 25px;
-    width: 1000px;
+    width: 800px;
+}
+.btn{
+    flex-grow: 3;
 }
 :root{
     --main-color: #fff8ff
