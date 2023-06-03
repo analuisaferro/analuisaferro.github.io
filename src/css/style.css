@@ -6,8 +6,11 @@ body{
     /* background-color: rgb(18, 18, 18); */
 }
 h1, h2, h3, h4, p, a{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
     margin: 0;
+}
+p{
+    font-size: 20px;
 }
 h1{
     font-weight: 400;
@@ -44,7 +47,7 @@ li > a{
     margin: 10px;
 }
 .main{
-    height: 93vh;
+    height: 94vh;
     display: flex;
     justify-content: center;
     align-items: center
@@ -65,8 +68,62 @@ li > a{
     margin-right: 25px;
     width: 800px;
 }
-.btn{
-    flex-grow: 3;
+.m-proj{
+    margin-top: 100px;
+    height: 75vh;
+}
+.aux{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+.m-title{
+    width: min-content;
+    margin: auto;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    text-align: center;
+    border-style: solid;
+    border-color: #bebebe;
+}
+.c-icon{
+    margin-top: 50px;
+    width: fit-content;
+    margin-bottom: 40px;
+}
+.txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.p-btn{
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: white;
+    background-color: #4BC433;
+    padding: 12px 20px 12px 20px;
+    border-radius: 10px;
+    border-style: solid;
+    text-decoration: none;
+    font-size: large;
+
+}
+.p-btn:hover{
+    background-color: #43AB2E;
+}
+.p-show > p{
+    text-align: center;
 }
 :root{
     --main-color: #fff8ff
