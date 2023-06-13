@@ -8,6 +8,7 @@ body{
 h1, h2, h3, h4, p, a{
     font-family: 'Rubik', sans-serif;
     margin: 0;
+    color: #293845;
 }
 p{
     font-size: 20px;
@@ -69,13 +70,12 @@ li > a{
     width: 800px;
 }
 .m-proj{
-    margin-top: 100px;
-    height: 75vh;
+    margin-top: 50px;
+    height: 100vh;
 }
 .aux{
     width: 100%;
     margin: auto;
-    margin-bottom: 100px;
 }
 .m-title{
     width: min-content;
@@ -84,46 +84,61 @@ li > a{
 .cards{
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 100px;
+    width: 85vw;
+    margin: auto auto 150px auto;
 }
 .card{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 400px;
     text-align: center;
+    width: 300px;
     border-style: solid;
     border-color: #bebebe;
 }
-.c-icon{
-    margin-top: 50px;
-    width: fit-content;
-    margin-bottom: 40px;
+.txt > p{
+    width: 250px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+.c-icont{
+    padding-top: 50px;
+    width: 100%;
+    height: 140px;
+    border-bottom: solid;
+    border-color: #bebebe;
+    background-color: #ffffff;
+    /* margin-bottom: 40px; */
+}
+.c-icont > h2{
+    margin-top: 30px;
 }
 .txt{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 30px;
+    margin-top: 50px;
 }
 .p-btn{
     display: block;
     margin-top: 15px;
-    margin-bottom: 10px;
-    color: white;
-    background-color: #4BC433;
+    margin-bottom: 15px;
+    color: rgb(71, 71, 71);
+    background-color: #ffffff;
     padding: 12px 20px 12px 20px;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     border-style: solid;
     text-decoration: none;
     font-size: large;
 
 }
 .p-btn:hover{
-    background-color: #43AB2E;
+    background-color: #000000;
+    color: #ffffff;
+    transition: all 0.3s ease-out;
 }
 .p-show > p{
     text-align: center;
+}
+.p-show{
+    margin-top: 100px;
 }
 :root{
     --main-color: #fff8ff
