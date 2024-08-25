@@ -290,8 +290,8 @@ function listaMedicamentos(medicamentos){
             <div class="card-body">
                 <p class="card-text">
                 Nome: ${medicamento.nome} <br/> 
-                Email: ${medicamento.preco} <br/>
-                CPF: ${medicamento.composicao} <br/>
+                Preço: ${medicamento.preco} <br/>
+                Principal composto: ${medicamento.composicao} <br/>
                 <div class="d-flex justify-content-end">
                 <a href="#" class="btn btn-primary" id="editar" onclick="constroeModalMedicamento(${index})">Editar</a>
                 <a href="#" class="btn btn-danger" onclick="deletarMedicamento(${index})">Deletar</a>
