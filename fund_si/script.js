@@ -195,6 +195,8 @@ function newFuncionario(nome, funcao, salario, cpf){
         alert("CPF Invalido!");
     }else if(validaPrecoSalario(salario)){
         alert("Salario Invalido!");
+    }else if(antiVazio(funcao)){
+        alert("Funcao invalida!")
     }else{
         let funcionario = {nome: nome, funcao: funcao, salario: salario, cpf: cpf};
         funcionarios.push(funcionario);
@@ -238,6 +240,8 @@ function alteraFuncionario(index, nome, funcao, salario, cpf){
         alert("CPF Invalido!");
     }else if(validaPrecoSalario(salario)){
         alert("Salario Invalido!");
+    }else if(antiVazio(funcao)){
+        alert("Funcao invalida!")
     }else{
         for(i in funcionarios){
             if(i == index){
@@ -267,6 +271,8 @@ function deletarFuncionario(index){
 function newMedicamento(nome, preco, composicao){
     if(validaPrecoSalario(preco)){
         alert("Preco Invalido!");
+    }else if(antiVazio(composicao)){
+        alert("Campo Composicao vazio!")
     }else{
         let  medicamento = {nome: nome, preco: preco, composicao: composicao};
         medicamentos.push(medicamento);
@@ -306,6 +312,8 @@ function listaMedicamentos(medicamentos){
 function alterarMedicamento(index, nome, preco, composicao){
     if(validaPrecoSalario(preco)){
         alert("Preco Invalido!");
+    }else if(antiVazio(composicao)){
+        alert("Campo Composicao vazio!")
     }else{
         for(i in medicamentos){
             if(i == index){
@@ -409,9 +417,19 @@ function deletarClientes(index){
 
 //VALIDACOES
 
+
+//IMPEDIR CAMPOS VAZIOS
+function antiVazio(n){
+    if(n == ""){
+        return true;
+    }else{
+        return false
+    }
+}
+
 //VALIDAR NOME CLIENTE ou FUNCIONARIO
 function validaNome(nome){
-    if((/^[a-zA-Z\s]+$/.test(nome)) && (nome.length >= 3) && (nome.length <= 30)){
+    if((/^[a-zA-Z\s]+$/.test(nome)) && (nome.length >= 3)){
         return false;
     } else {
         return true; 
