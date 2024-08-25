@@ -111,7 +111,7 @@ function constroeModalMedicamento(id){
             break;
         }
     }
-    const myModal = document.getElementById('editarCliente');
+    const myModal = document.getElementById('editarMedicamento');
     const modalInstance = new bootstrap.Modal(myModal);
     // Abre o modal
     modalInstance.show();
