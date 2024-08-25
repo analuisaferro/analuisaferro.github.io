@@ -346,8 +346,8 @@ function deletarClientes(index){
 
 //VALIDAR NOME CLIENTE ou FUNCIONARIO
 function validaNome(nome){
-    if(/^[a-zA-Z\s]+$/.test(nome) && nome.length >= 3){
-        return false;  
+    if((/^[a-zA-Z\s]+$/.test(nome)) && (nome.length >= 3)){
+        return false;
     } else {
         return true; 
     }
