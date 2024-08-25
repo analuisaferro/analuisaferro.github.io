@@ -76,7 +76,46 @@ funcionarioCad.addEventListener('click', () => {
     cpf.value = "";
 })
 
+const medicamentoCad = document.querySelector("#mEnvia");
+medicamentoCad.addEventListener('click', () => {
+    let nome = document.querySelector(".nomeMedicamento").value;
+    let preco = document.querySelector(".precoMedicamento").value;
+    let composicao = document.querySelector(".composicaoMedicamento").value;
+    newMedicamento(nome, preco, composicao);
+    nome.value = "";
+    preco.value = "";
+    composicao.value = "";
+})
+
 //Funções de editar
+
+function medicamentoEdita(id){
+    let nome = document.querySelector(".nomeMedicamentoEditar").value;
+    let preco = document.querySelector(".precoMedicamentoEditar").value;
+    let composicao = document.querySelector(".composicaoMedicamentoEditar").value;
+    alterarMedicamento(id, nome, preco, composicao);
+}
+
+function constroeModalMedicamento(id){
+    let nome = document.querySelector(".nomeMedicamentoEditar");
+    let preco = document.querySelector(".precoMedicamentoEditar");
+    let composicao = document.querySelector(".composicaoMedicamentoEditar");
+    let btn = document.querySelector("#mEdita");
+    btn.setAttribute("onclick",`medicamentoEdita(${id});`);
+
+    for (const [index, elemento] of medicamentos.entries()) {
+        if(id == index){
+            nome.value = elemento.nome;
+            preco.value = elemento.preco;
+            composicao.value = elemento.composicao;
+            break;
+        }
+    }
+    const myModal = document.getElementById('editarCliente');
+    const modalInstance = new bootstrap.Modal(myModal);
+    // Abre o modal
+    modalInstance.show();
+}
 
 function clienteEdita(id){
     let nome = document.querySelector(".nomeclienteEdit").value;
@@ -381,7 +420,7 @@ function validaNome(nome){
 
 ////VALIDAR PRECO SALARIO
 function validaPrecoSalario(num){
-    if(/^(\d{1,3}(?:.\d{3})*|\d+)(?:,\d{2})?$/.test(num)){
+    if(/^\d+,\d{2}$/.test(num)){
         return false; 
     }else{
         return true;
