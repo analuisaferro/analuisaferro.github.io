@@ -264,13 +264,13 @@ function deletarFuncionario(index){
 //FUNCOES MEDICAMENTO CRUD CREATE READ UPDATE DELETE
 
 //CRIAR MEDICAMENTO
-function newMedicamento(medicamentos, nome, composicao, preco){
+function newMedicamento(nome, preco, composicao){
     if(validaPrecoSalario(preco)){
         alert("Preco Invalido!");
     }else{
-        let  medicamento = {nome: nome, composicao: composicao, preco: preco};
+        let  medicamento = {nome: nome, preco: preco, composicao: composicao};
         medicamentos.push(medicamento);
-        constroeLista(divFunc, medicamentos);
+        listaMedicamentos(medicamentos);
     }
 }
 
@@ -398,6 +398,7 @@ function deletarClientes(index){
     }
     listaClientes(clientes);
 }
+
 
 
 
