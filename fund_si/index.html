@@ -167,7 +167,41 @@
       </div>
     </div>
 
-        <!-- MODAL CLIENTE EDITAR -->
+    <!-- MODAL MEDICAMENTO CADASTRAR-->
+    <div class="modal fade" id="medicamento" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Novo medicamento</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="recipient-name" class="col-form-label">Nome</label>
+                <input type="text" class="form-control nomeMedicamento" id="recipient-name">
+              </div>
+              <div class="mb-3">
+                <label for="message-text" class="col-form-label inputemail">Preço</label>
+                <input type="email" class="form-control precoMedicamento" id="recipient-name">
+
+              </div>
+              <div class="mb-3">
+                <label for="message-text" class="col-form-label inputcpf">Principal composto</label>
+                <input type="number" class="form-control composicaoMedicamento" id="recipient-name">
+
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal" value="submit" id="cEnvia">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL MEDICAMENTO EDITAR -->
     <div class="modal fade" id="editarCliente" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">

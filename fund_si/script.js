@@ -195,9 +195,9 @@ function alteraFuncionario(index, nome, funcao, salario, cpf){
     if(validaNome(nome)){
         alert("Nome Invalido!");
     }else if(validateCPF(cpf)){
-        alert("CPF Invalido!")
+        alert("CPF Invalido!");
     }else if(validaPrecoSalario(salario)){
-        alert("Salario Invalido!")
+        alert("Salario Invalido!");
     }else{
         for(i in funcionarios){
             if(i == index){
@@ -235,17 +235,31 @@ function newMedicamento(medicamentos, nome, composicao, preco){
 }
 
 
-//ESCREVER OS DADOS DO MEDIICAMENTO
+//ESCREVER OS DADOS DO MEDICAMENTO
 function listaMedicamentos(medicamentos){
     let filho = document.createElement('div');
-    for(medicamento of medicamentos){
-        filho.innerHTML += `<div>
-        <p>Nome: ${medicamento.nome}</p>
-        <p>Composição: ${medicamento.composicao}</p>
-        <p>Preço: ${medicamento.preco}</p>
+        index = 0;
+        filho.innerHTML = `
+        <div class="d-flex justify-content-between align-items-center mb-3">
+        <h1 class="ml-3">Listar Medicamentos</h1>
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#medicamento" data-bs-whatever="@mdo">Cadastrar</button>
         </div>`
-    }
-    constroeLista(filho);
+        for(medicamento of medicamentos){
+            filho.innerHTML += `
+            <div class="card mb-3">
+            <div class="card-body">
+                <p class="card-text">
+                Nome: ${medicamento.nome} <br/> 
+                Email: ${medicamento.preco} <br/>
+                CPF: ${medicamento.composicao} <br/>
+                <div class="d-flex justify-content-end">
+                <a href="#" class="btn btn-primary" id="editar" onclick="constroeModalMedicamento(${index})">Editar</a>
+                <a href="#" class="btn btn-danger" onclick="deletarMedicamento(${index})">Deletar</a>
+                </div>
+            </div>`
+            index++;
+        }
+        constroeLista(filho);
 }
 
 //ALTERAR MEDICAMENTO
@@ -366,7 +380,7 @@ function validaNome(nome){
 
 ////VALIDAR PRECO SALARIO
 function validaPrecoSalario(num){
-    if((/^(\d{1,3}(?:.\d{3})*|\d+)(?:,\d{2})?$/.test(num)) && (/^\d+,\d{2}$/.test(num))){
+    if((/^(\d{1,3}(?:.\d{3})*|\d+)(?:,\d{2})?$/.test(num))){
         return false; 
     }else{
         return true;
