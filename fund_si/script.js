@@ -318,10 +318,10 @@ function deletarClientes(index){
 
 //VALIDAR NOME CLIENTE ou FUNCIONARIO
 function validaNome(nome){
-    if(/^[a-zA-Z\s]+$/.test(nome) || nome == ''){
+    if(/^[a-zA-Z\s]+$/.test(nome) && nome != ''){
         return false;
     } else {
-         return true; 
+        return true; 
     }
 }
 
@@ -336,7 +336,7 @@ function validaPrecoSalario(num){
 }
 
 
-
+//VALIDAR CPF
 function validateCPF(cpf){
 
         // first digit calc
