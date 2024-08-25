@@ -420,7 +420,7 @@ function validaNome(nome){
 
 ////VALIDAR PRECO SALARIO
 function validaPrecoSalario(num){
-    if(/^\d+(,\d{2})?$/.test(num)){
+    if(/^\d{1,3}(?:\.\d{3})*(?:,\d{1,2})?$/.test(num)){
         return false; 
     }else{
         return true;
