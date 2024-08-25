@@ -113,7 +113,8 @@ function funcionarioEdita(id){
     alterarCliente(id, nome, email, cpf);
 }
 
-function constroeModalfuncionario(id){
+function constroeModalFuncionario(id){
+    console.log("oie")
     let nome = document.querySelector(".nomefuncionarioEditar");
     let funcao = document.querySelector(".funcaofuncionarioEditar");
     let salario = document.querySelector(".salariofuncionarioEditar");
@@ -122,15 +123,16 @@ function constroeModalfuncionario(id){
     let btn = document.querySelector("#fEdita");
     btn.setAttribute("onclick",`funcionarioEdita(${id});`);
 
-    for (const [index, elemento] of clientes.entries()) {
+    for (const [index, elemento] of funcionarios.entries()) {
         if(id == index){
             nome.value = elemento.nome;
-            email.value = elemento.email;
+            funcao.value = elemento.funcao;
+            salario.value = elemento.salario;
             cpf.value = elemento.cpf;
             break;
         }
     }
-    const myModal = document.getElementById('editarCliente');
+    const myModal = document.getElementById('editarFuncionario');
     const modalInstance = new bootstrap.Modal(myModal);
     // Abre o modal
     modalInstance.show();
@@ -179,7 +181,7 @@ function listaFuncionarios(funcionarios){
             Salário: ${funcionario.salario} <br/>
             CPF: ${funcionario.cpf}</p>
             <div class="d-flex justify-content-end">
-            <a href="#" class="btn btn-primary" id="editar" value="${index}">Editar</a>
+            <a href="#" class="btn btn-primary" id="editar" onclick="constroeModalFuncionario(${index})">Editar</a>
             <a href="#" class="btn btn-danger" onclick="deletarFuncionario(${index})">Deletar</a>
             </div>
         </div>`
@@ -354,7 +356,7 @@ function deletarClientes(index){
 
 //VALIDAR NOME CLIENTE ou FUNCIONARIO
 function validaNome(nome){
-    if((/^[a-zA-Z\s]+$/.test(nome)) && (nome.length >= 3)){
+    if((/^[a-zA-Z\s]+$/.test(nome)) && (nome.length >= 3) && (nome.length <= 30)){
         return false;
     } else {
         return true; 
@@ -364,7 +366,7 @@ function validaNome(nome){
 
 ////VALIDAR PRECO SALARIO
 function validaPrecoSalario(num){
-    if(/^(\d{1,3}(?:.\d{3})*|\d+)(?:,\d{2})?$/.test(num)){
+    if((/^(\d{1,3}(?:.\d{3})*|\d+)(?:,\d{2})?$/.test(num)) && (/^\d+,\d{2}$/.test(num))){
         return false; 
     }else{
         return true;
