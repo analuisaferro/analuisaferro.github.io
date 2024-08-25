@@ -303,18 +303,18 @@ function listaMedicamentos(medicamentos){
 }
 
 //ALTERAR MEDICAMENTO
-function alterarMedicamento(medicamentos, nome, index, composicao, preco){
+function alterarMedicamento(index, nome, preco, composicao){
     if(validaPrecoSalario(preco)){
         alert("Preco Invalido!");
     }else{
-        for(i of medicamentos){
+        for(i in medicamentos){
             if(i == index){
                 medicamentos[i].nome = nome;
-                medicamentos[i].composicao = composicao;
                 medicamentos[i].preco = preco;
+                medicamentos[i].composicao = composicao;
             }
         }
-        constroeLista(medicamentos);
+        listaMedicamentos(medicamentos);
     }
 }
 
