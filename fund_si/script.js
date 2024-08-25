@@ -106,6 +106,34 @@ function constroeModalCliente(id){
     modalInstance.show();
 }
 
+function funcionarioEdita(id){
+    let nome = document.querySelector(".nomeclienteEdit").value;
+    let email = document.querySelector(".emailclienteEdit").value;
+    let cpf = document.querySelector(".cpfclienteEdit").value;
+    alterarCliente(id, nome, email, cpf);
+}
+
+function constroeModalfuncionario(id){
+    let nome = document.querySelector(".nomeclienteEdit");
+    let email = document.querySelector(".emailclienteEdit");
+    let cpf = document.querySelector(".cpfclienteEdit");
+    let btn = document.querySelector("#cEdita");
+    btn.setAttribute("onclick",`clienteEdita(${id});`);
+
+    for (const [index, elemento] of clientes.entries()) {
+        if(id == index){
+            nome.value = elemento.nome;
+            email.value = elemento.email;
+            cpf.value = elemento.cpf;
+            break;
+        }
+    }
+    const myModal = document.getElementById('editarCliente');
+    const modalInstance = new bootstrap.Modal(myModal);
+    // Abre o modal
+    modalInstance.show();
+}
+
 //construtor lista
 function constroeLista(conteudo){
     let divPrincipal = document.querySelector(".att-content")
@@ -318,8 +346,8 @@ function deletarClientes(index){
 
 //VALIDAR NOME CLIENTE ou FUNCIONARIO
 function validaNome(nome){
-    if(/^[a-zA-Z\s]+$/.test(nome) && nome != ''){
-        return false;
+    if(/^[a-zA-Z\s]+$/.test(nome) && nome.length >= 3){
+        return false;  
     } else {
         return true; 
     }
