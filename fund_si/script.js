@@ -107,10 +107,11 @@ function constroeModalCliente(id){
 }
 
 function funcionarioEdita(id){
-    let nome = document.querySelector(".nomeclienteEdit").value;
-    let email = document.querySelector(".emailclienteEdit").value;
-    let cpf = document.querySelector(".cpfclienteEdit").value;
-    alterarCliente(id, nome, email, cpf);
+    let nome = document.querySelector(".nomefuncionarioEditar").value;
+    let funcao = document.querySelector(".funcaofuncionarioEditar").value;
+    let salario = document.querySelector(".salariofuncionarioEditar").value;
+    let cpf = document.querySelector(".cpffuncionarioEditar").value;
+    alterarCliente(id, nome, funcao, salario, cpf);
 }
 
 function constroeModalFuncionario(id){
