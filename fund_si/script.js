@@ -114,11 +114,13 @@ function funcionarioEdita(id){
 }
 
 function constroeModalfuncionario(id){
-    let nome = document.querySelector(".nomeclienteEdit");
-    let email = document.querySelector(".emailclienteEdit");
-    let cpf = document.querySelector(".cpfclienteEdit");
-    let btn = document.querySelector("#cEdita");
-    btn.setAttribute("onclick",`clienteEdita(${id});`);
+    let nome = document.querySelector(".nomefuncionarioEditar");
+    let funcao = document.querySelector(".funcaofuncionarioEditar");
+    let salario = document.querySelector(".salariofuncionarioEditar");
+    let cpf = document.querySelector(".cpffuncionarioEditar");
+
+    let btn = document.querySelector("#fEdita");
+    btn.setAttribute("onclick",`funcionarioEdita(${id});`);
 
     for (const [index, elemento] of clientes.entries()) {
         if(id == index){
@@ -314,14 +316,20 @@ function listaClientes(clientes){
 
 //ALTERAR CLIENTE
 function alterarCliente(index, nome, email, cpf){
-    for(i in clientes){
-        if(i == index){
-            clientes[i].cpf = cpf;
-            clientes[i].nome = nome;
-            clientes[i].email = email;
+    if(validaNome(nome)){
+        alert("Nome Invalido!");
+    }else if(validateCPF(cpf)){
+        alert("CPF Invalido!")
+    }else{
+        for(i in clientes){
+            if(i == index){
+                clientes[i].cpf = cpf;
+                clientes[i].nome = nome;
+                clientes[i].email = email;
+            }
         }
+        listaClientes(clientes);
     }
-    listaClientes(clientes);
 }
 
 //DELETAR CLIENTES
