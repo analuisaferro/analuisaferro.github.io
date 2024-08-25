@@ -111,7 +111,7 @@ function funcionarioEdita(id){
     let funcao = document.querySelector(".funcaofuncionarioEditar").value;
     let salario = document.querySelector(".salariofuncionarioEditar").value;
     let cpf = document.querySelector(".cpffuncionarioEditar").value;
-    alterarCliente(id, nome, funcao, salario, cpf);
+    alteraFuncionario(id, nome, funcao, salario, cpf);
 }
 
 function constroeModalFuncionario(id){
@@ -203,9 +203,9 @@ function alteraFuncionario(index, nome, funcao, salario, cpf){
         for(i in funcionarios){
             if(i == index){
                 funcionarios[i].nome = nome;
-                funcionarios[i].cpf = cpf;
                 funcionarios[i].funcao = funcao;
                 funcionarios[i].salario = salario;
+                funcionarios[i].cpf = cpf;
             }
         }
         listaFuncionarios(funcionarios);
