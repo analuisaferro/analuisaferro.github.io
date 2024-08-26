@@ -3,7 +3,14 @@ main{
     margin-left: 100px;
 
 }
-
+h1, p, a {
+    font-family: "Nunito Sans", sans-serif;
+}
+.dra-cura {
+    bottom: 0;
+    position: fixed;
+    right: 0;
+}
 .title {
     align-items: center;
     margin-top: 20px;
@@ -16,19 +23,33 @@ main{
 .conteudo {
     padding: 20px 20px 500px 20px;
     margin-top: 20px;
-    background-color: #fff;
+    background-color: #ffffff45;
     border-radius: 10px;
 }
 .nav{
     width: 64%;
-    margin: 0 auto;
     margin-top: 25px;
+}
+.nav-btn {
+    color: #000 !important;
+    border-color: #000 !important;
+}
+.nav-btn:hover{
+    background-color: #A456AF !important;
+    color: #fff !important;
 }
 .btn-primary {
     margin-right: 10px;
 }
+.cad-btn{
+    background-color: #A456AF !important;
+    border-color: #863f90 !important;
+}
+#editar, #deletar {
+    background: none !important;
+    border: none;
+}
+
 body {
-    background-image: url(9k.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: #e4d8f0 !important;
 }

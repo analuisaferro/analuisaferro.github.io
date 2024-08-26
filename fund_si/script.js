@@ -211,7 +211,7 @@ function listaFuncionarios(funcionarios){
     filho.innerHTML = `
     <div class="d-flex justify-content-between align-items-center mb-3">
     <h1 class="ml-3">Listar Funcionários</h1>
-    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#funcionario" data-bs-whatever="@mdo">Cadastrar</button>
+    <button type="button" class="btn btn-primary cad-btn" data-bs-toggle="modal" data-bs-target="#funcionario" data-bs-whatever="@mdo">Cadastrar</button>
     </div>`
     for(funcionario of funcionarios){
         filho.innerHTML += `
@@ -223,8 +223,8 @@ function listaFuncionarios(funcionarios){
             Salário: ${funcionario.salario} <br/>
             CPF: ${funcionario.cpf}</p>
             <div class="d-flex justify-content-end">
-            <a href="#" class="btn btn-primary" id="editar" onclick="constroeModalFuncionario(${index})">Editar</a>
-            <a href="#" class="btn btn-danger" onclick="deletarFuncionario(${index})">Deletar</a>
+            <a href="#" class="btn btn-primary" id="editar" onclick="constroeModalFuncionario(${index})"><?xml version="1.0" encoding="UTF-8"?><svg width="22px" height="22px" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M14.3632 5.65156L15.8431 4.17157C16.6242 3.39052 17.8905 3.39052 18.6716 4.17157L20.0858 5.58579C20.8668 6.36683 20.8668 7.63316 20.0858 8.41421L18.6058 9.8942M14.3632 5.65156L4.74749 15.2672C4.41542 15.5993 4.21079 16.0376 4.16947 16.5054L3.92738 19.2459C3.87261 19.8659 4.39148 20.3848 5.0115 20.33L7.75191 20.0879C8.21972 20.0466 8.65806 19.8419 8.99013 19.5099L18.6058 9.8942M14.3632 5.65156L18.6058 9.8942" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+            <a href="#" class="btn btn-danger" id="deletar" onclick="deletarFuncionario(${index})"><?xml version="1.0" encoding="UTF-8"?><svg width="22px" height="22px" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M20 9L18.005 20.3463C17.8369 21.3026 17.0062 22 16.0353 22H7.96474C6.99379 22 6.1631 21.3026 5.99496 20.3463L4 9" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21 6L15.375 6M3 6L8.625 6M8.625 6V4C8.625 2.89543 9.52043 2 10.625 2H13.375C14.4796 2 15.375 2.89543 15.375 4V6M8.625 6L15.375 6" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
             </div>
         </div>`
         index++;
@@ -288,7 +288,7 @@ function listaMedicamentos(medicamentos){
         filho.innerHTML = `
         <div class="d-flex justify-content-between align-items-center mb-3">
         <h1 class="ml-3">Listar Medicamentos</h1>
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#medicamento" data-bs-whatever="@mdo">Cadastrar</button>
+        <button type="button" class="btn btn-primary cad-btn" data-bs-toggle="modal" data-bs-target="#medicamento" data-bs-whatever="@mdo">Cadastrar</button>
         </div>`
         for(medicamento of medicamentos){
             filho.innerHTML += `
@@ -299,8 +299,8 @@ function listaMedicamentos(medicamentos){
                 Preço: ${medicamento.preco} <br/>
                 Principal composto: ${medicamento.composicao} <br/>
                 <div class="d-flex justify-content-end">
-                <a href="#" class="btn btn-primary" id="editar" onclick="constroeModalMedicamento(${index})">Editar</a>
-                <a href="#" class="btn btn-danger" onclick="deletarMedicamento(${index})">Deletar</a>
+                <a href="#" class="btn btn-primary" id="editar" onclick="constroeModalMedicamento(${index})"><?xml version="1.0" encoding="UTF-8"?><svg width="22px" height="22px" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M14.3632 5.65156L15.8431 4.17157C16.6242 3.39052 17.8905 3.39052 18.6716 4.17157L20.0858 5.58579C20.8668 6.36683 20.8668 7.63316 20.0858 8.41421L18.6058 9.8942M14.3632 5.65156L4.74749 15.2672C4.41542 15.5993 4.21079 16.0376 4.16947 16.5054L3.92738 19.2459C3.87261 19.8659 4.39148 20.3848 5.0115 20.33L7.75191 20.0879C8.21972 20.0466 8.65806 19.8419 8.99013 19.5099L18.6058 9.8942M14.3632 5.65156L18.6058 9.8942" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+                <a href="#" class="btn btn-danger" id="deletar" onclick="deletarMedicamento(${index})"><?xml version="1.0" encoding="UTF-8"?><svg width="22px" height="22px" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M20 9L18.005 20.3463C17.8369 21.3026 17.0062 22 16.0353 22H7.96474C6.99379 22 6.1631 21.3026 5.99496 20.3463L4 9" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21 6L15.375 6M3 6L8.625 6M8.625 6V4C8.625 2.89543 9.52043 2 10.625 2H13.375C14.4796 2 15.375 2.89543 15.375 4V6M8.625 6L15.375 6" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
                 </div>
             </div>`
             index++;
@@ -327,13 +327,13 @@ function alterarMedicamento(index, nome, preco, composicao){
 }
 
 //DELETAR MEDICAMENTOS
-function deletarMedicamento(medicamentos, index){
+function deletarMedicamento(index){
     for(i in medicamentos){
         if(i == index){
-            medicamentos.splice(i, 1);
+            medicamentos.splice(index, 1);
         }
     }
-    constroeLista(medicamentos);
+    listaMedicamentos(medicamentos);
 }
 
 //FUNCOES CLIENTE CRUD CREATE READ UPDATE DELETE
@@ -358,7 +358,7 @@ function listaClientes(clientes){
         filho.innerHTML = `
         <div class="d-flex justify-content-between align-items-center mb-3">
         <h1 class="ml-3">Listar Clientes</h1>
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#cliente" data-bs-whatever="@mdo">Cadastrar</button>
+        <button type="button" class="btn btn-primary cad-btn" data-bs-toggle="modal" data-bs-target="#cliente" data-bs-whatever="@mdo">Cadastrar</button>
         </div>`
         for(cliente of clientes){
             filho.innerHTML += `
@@ -369,8 +369,8 @@ function listaClientes(clientes){
                 Email: ${cliente.email} <br/>
                 CPF: ${cliente.cpf} <br/>
                 <div class="d-flex justify-content-end">
-                <a href="#" class="btn btn-primary" id="editar" onclick="constroeModalCliente(${index})">Editar</a>
-                <a href="#" class="btn btn-danger" onclick="deletarClientes(${index})">Deletar</a>
+                <a href="#" class="btn btn-primary" id="editar" onclick="constroeModalCliente(${index})"><?xml version="1.0" encoding="UTF-8"?><svg width="22px" height="22px" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M14.3632 5.65156L15.8431 4.17157C16.6242 3.39052 17.8905 3.39052 18.6716 4.17157L20.0858 5.58579C20.8668 6.36683 20.8668 7.63316 20.0858 8.41421L18.6058 9.8942M14.3632 5.65156L4.74749 15.2672C4.41542 15.5993 4.21079 16.0376 4.16947 16.5054L3.92738 19.2459C3.87261 19.8659 4.39148 20.3848 5.0115 20.33L7.75191 20.0879C8.21972 20.0466 8.65806 19.8419 8.99013 19.5099L18.6058 9.8942M14.3632 5.65156L18.6058 9.8942" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
+                <a href="#" class="btn btn-danger" id="deletar" onclick="deletarClientes(${index})"><?xml version="1.0" encoding="UTF-8"?><svg width="22px" height="22px" viewBox="0 0 24 24" stroke-width="1.5" fill="none" xmlns="http://www.w3.org/2000/svg" color="#000000"><path d="M20 9L18.005 20.3463C17.8369 21.3026 17.0062 22 16.0353 22H7.96474C6.99379 22 6.1631 21.3026 5.99496 20.3463L4 9" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path><path d="M21 6L15.375 6M3 6L8.625 6M8.625 6V4C8.625 2.89543 9.52043 2 10.625 2H13.375C14.4796 2 15.375 2.89543 15.375 4V6M8.625 6L15.375 6" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path></svg></a>
                 </div>
             </div>`
             index++;
