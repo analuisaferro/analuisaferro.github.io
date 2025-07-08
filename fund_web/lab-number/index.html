@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Trabalho - Programação de Clientes Web</title>
+    <script defer src="script.js"></script>
+    <style>
+        body {
+            margin: 32px;
+        }
+        section {
+            margin-bottom: 28px;
+        }
+        label, input, button {
+            display: block;
+            margin: 12px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercícios - Programação de Clientes Web</h1>
+
+    <section>
+        <h2>1. Soma de dois números</h2>
+        <input type="number" id="soma_num1" placeholder="Primeiro número">
+        <input type="number" id="soma_num2" placeholder="Segundo número">
+        <button onclick="calcularSoma()">Somar</button>
+        <p id="resultado_soma"></p>
+    </section>
+
+    <section>
+        <h2>2. Qual número é maior?</h2>
+        <input type="number" id="maior_num1" placeholder="Primeiro número">
+        <input type="number" id="maior_num2" placeholder="Segundo número">
+        <button onclick="verificarMaior()">Verificar</button>
+        <p id="resultado_maior"></p>
+    </section>
+
+    <section>
+        <h2>3. Verificar número primo</h2>
+        <input type="number" id="num_primo" placeholder="Digite um número">
+        <button onclick="verificarPrimo()">Verificar</button>
+        <p id="resultado_primo"></p>
+    </section>
+
+    <section>
+        <h2>4. Calcular hipotenusa</h2>
+        <input type="number" id="cateto_a" placeholder="Cateto A">
+        <input type="number" id="cateto_b" placeholder="Cateto B">
+        <button onclick="calcularHipotenusa()">Calcular</button>
+        <p id="resultado_hipotenusa"></p>
+    </section>
+
+    <section>
+        <h2>5. Reajuste salarial</h2>
+        <input type="number" id="salario_atual" placeholder="Salário atual">
+        <input type="number" id="percentual_reajuste" placeholder="% de reajuste">
+        <button onclick="calcularNovoSalario()">Calcular</button>
+        <p id="resultado_salario"></p>
+    </section>
+
+    <section>
+        <h2>6. Fahrenheit para Celsius</h2>
+        <input type="number" id="temp_fahrenheit" placeholder="Temperatura em Fahrenheit">
+        <button onclick="converterParaCelsius()">Converter</button>
+        <p id="resultado_celsius"></p>
+    </section>
+
+    <section>
+        <h2>7. Média ponderada</h2>
+        <input type="number" id="nota1" placeholder="Nota 1 (peso 2)">
+        <input type="number" id="nota2" placeholder="Nota 2 (peso 3)">
+        <input type="number" id="nota3" placeholder="Nota 3 (peso 5)">
+        <button onclick="calcularMediaPonderada()">Calcular</button>
+        <p id="resultado_media"></p>
+    </section>
+</body>
+</html>
